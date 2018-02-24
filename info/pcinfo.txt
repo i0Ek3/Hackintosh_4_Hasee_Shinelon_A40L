@@ -1,0 +1,15 @@
+驱动精灵驱动管理硬件检测报告
+================================================================
+电脑型号		QTS5笔记本
+处理器			Intel(R) Core(TM) i7-4710MQ CPU @ 2.50GHz
+内存容量		8.0GB
+显卡			1、NVIDIA GeForce 840M
+			2、Intel(R) HD Graphics 4600
+硬盘			TS128GMS A370 SCSI Disk Device (128GB)
+主板			Type2 - Board Product Name1 (Type2 - Board Version)
+网卡			1、Atheros AR9485WB-EG Wireless Network Adapter
+			2、Realtek PCIe GBE Family Controller
+声卡			1、Realtek High Definition Audio
+			2、NVIDIA Virtual Audio Device (Wave Extensible) (WDM)
+显示器			AUO:ed12  分辨率:1920x1080 
+当前操作系统		Windows 7 64位

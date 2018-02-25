@@ -1,7 +1,7 @@
 # Hackintosh_4_Hasee_Shinelon_A40L
 
 
-Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，姑且就不改了，这样也挺好的.文章难免有错，请不吝指出，感谢。
+## [Status](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/EFI-update/changelog.md)
 
 ## macOS使用
 - [官方使用指南](https://help.apple.com/macOS/high-sierra/mac-basics/?lang=zh-cn#/outro)
@@ -168,9 +168,6 @@ ps:只看教程可能晦涩难懂，我这里保存了远景论坛@daxuexinsheng
 链接:https://pan.baidu.com/s/1dCcpm2  密码:e9bs
 
 
-## [Status](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/EFI-update/changelog.md)
-
-
 
 ## Records
 >2018<br>
@@ -185,3 +182,4 @@ ps:只看教程可能晦涩难懂，我这里保存了远景论坛@daxuexinsheng
 >>02-14:使用状态请参考EFI-update/下的changelog.md。修复了睡眠唤醒后无声问题。
 >>02-15:新年快乐。昨晚也没解决什么问题，就是下载了一些软件，心得：尽量不要去苹果商店以外的地方下载软件，因为不保障有垃圾软件劫持，请尽量支持正版！另外，考虑了一番，准备使用Time Manchine进行备份系统，以免哪天突然崩掉。故将1T硬盘拆掉，将系统重新安装在ssd上，希望一切顺利。<br>
 >>02-16:不知是什麼原因，系統會突然變卡，尤其在睡眠後啓動，也有可能是因爲處理多任務的原因，嘗試注入了imei，發現效果並不強烈，因爲還是會卡，看看能不能修復。<br>
+>>02-25:调整了内容，删除了项目中不必要的东西，可直接下载使用。<br>

@@ -64,21 +64,20 @@ Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，�
         - 快速启动，在苹果系统下运行clover configurator,挂载efi分区并加载config.plist配置文件，在clover configurator左边的boot项下选择default boot value，填写你想要直接进入的系统的名字，timeout设为0，保存覆盖重启即可。
 
 - 系统图赏
-![02-11](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/up.png)
-![1](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/屏幕快照%202018-02-08%2011.44.16.png)
-![2](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/屏幕快照%202018-02-08%2011.46.19.png)
-![3](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/屏幕快照%202018-02-08%2011.46.33.png)
-![4](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/屏幕快照%202018-02-08%2011.48.24.png)
-![5](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/屏幕快照%202018-02-08%2011.48.52.png)
-![6](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/屏幕快照%202018-02-08%2011.49.57.png)
-![7](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/屏幕快照%202018-02-08%2011.54.32.png)
-
-![8](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/audioid.png)
-![9](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/usb.png)
-![10](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/wifi.png)
-![11](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/原声.png)
-![12](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/核显.png)
-![13](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/pic/电源.png)
+![02-11](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/up.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/屏幕快照%202018-02-08%2011.44.16.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/屏幕快照%202018-02-08%2011.46.19.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/屏幕快照%202018-02-08%2011.46.33.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/屏幕快照%202018-02-08%2011.48.24.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/屏幕快照%202018-02-08%2011.48.52.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/屏幕快照%202018-02-08%2011.49.57.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/屏幕快照%202018-02-08%2011.54.32.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/audioid.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/usb.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/wifi.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/原声.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/核显.png)
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/电源.png)
 
 
 - 鸣谢

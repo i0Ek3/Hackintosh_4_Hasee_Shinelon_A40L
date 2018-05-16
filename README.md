@@ -6,6 +6,7 @@
 - 2018-05-05: 刚刚装好黑苹果和linux的双系统，接下来分别配置开发环境。安装上问题不大，先将Linux正常安装在128G的SSD上，再正常安装黑苹果到2T的HHD，可实现独立启动双系统，互不影响。安全布局上，会采用[@drduh大神](https://github.com/drduh)的[方案](https://github.com/drduh/macOS-Security-and-Privacy-Guide)，也希望大家重视安全问题。
 - 2018-05-09: 系统基本算是配置好了，但有一点是SSD的确要比HHD快太多了，新配置的黑苹果系统卡顿较之前严重，好在不是太影响使用，毕竟我用空间换时间。<br>
 - 2018-05-15: 系统实在太卡了，真的受不鸟了，果断重新安装到SSD上。<br>
+- 2018-05-16: OK，搞定。另推荐laod的ntfs在mac下直接访问的[解决方案](https://laod.cn/free/mac-ntfs.html)。<br>
 
 Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，姑且就不改了，这样也挺好的.文章难免有错，请不吝指出，感谢。
 

@@ -101,14 +101,12 @@ PS: 此处开始，系统变更为10.13.4，直接套用可能有不兼容情况
 - Added EFI-10.13.4(myself version)
     - Update to 10.13.4
     - Update kexts Lilu, Shiki, AppleALC
-
+    - Already replaced my SSDT-PRGen.aml to EFI(other version you should replaced it)
 
 
 # Trouble
 - 独显不可用
 - 蓝牙不可用，只由于无线网卡不带蓝牙。考虑到用蓝牙的情况较少，目前不考虑更换无线网卡了
 - 新装系统后，无线需要手动安装解决，没啥大问题，就是麻烦点
-- safari浏览器偶尔卡顿，大文件拷贝、下载和多任务处理会卡顿
-- 官方版微信长时间聊天会有几次卡顿，大概在5s左右（目前不再卡顿 03-18 update）
 - 其他的问题及时补充中......
 

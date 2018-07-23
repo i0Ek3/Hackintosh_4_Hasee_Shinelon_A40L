@@ -7,10 +7,15 @@
 - 2018-05-09: 系统基本算是配置好了，但有一点是SSD的确要比HHD快太多了，新配置的黑苹果系统卡顿较之前严重，好在不是太影响使用，毕竟我用空间换时间。<br>
 - 2018-05-15: 系统实在太卡了，真的受不鸟了，果断重新安装到SSD上。<br>
 - 2018-05-16: OK，搞定。另推荐laod的ntfs在mac下直接访问的[解决方案](https://laod.cn/free/mac-ntfs.html)。<br>
+- 2018-07-23: 目前还稳定使用10.13.4，之前升级过一次直接挂了，没找到问题，也没有时间继续折腾，所以目前不会更新了，除非炸的太厉害！<br>
+
 
 Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，姑且就不改了，这样也挺好的.文章难免有错，请不吝指出，感谢。
 
-# macOS使用
+
+## [Status](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/EFI-update/changelog.md)
+
+## macOS使用
 - [官方使用指南](https://help.apple.com/macOS/high-sierra/mac-basics/?lang=zh-cn#/outro)
 - [xclient](http://xclient.info/?_=8854065baa5c04fa30fc193b4a000714)
 - [MAS](https://www.waerfa.com/tag/mas)
@@ -34,6 +39,7 @@ Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，�
 - [黑苹果乐园](https://imac.hk/category/course/)
 - [Create macOS installation USB](https://www.tonymacx86.com/threads/how-to-create-a-macos-high-sierra-public-beta-installation-usb.225520/)
 - [猫叔博客](https://www.maoshu.cc)
+
 
 ## Installation
 
@@ -176,25 +182,6 @@ iasl *.dsl
 ps:只看教程可能晦涩难懂，我这里保存了远景论坛@daxuexinsheng录制的视频以供参考，感谢他的付出。<br>
 链接:https://pan.baidu.com/s/1dCcpm2  密码:e9bs
 
-
-## [Status](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/EFI-update/changelog.md)
-
-
-
-## Records
->2018<br>
->>02-06:第二次开坑黑苹果。晚上，信息收集，准备[制作U盘启动盘](http://bbs.pcbeta.com/viewthread-1764286-1-5.html)。<br>
->>02-07:黑果无果，不过解决了家里电脑连网线的问题。继续hacktonishing...<br>
->>02-08:昨晚10点的时候，黑果成功。一直在折腾来着，今天写篇教程记录下，后续再进行完善和优化。<br>
->>02-09:重新做了macOS到HHD上，作为测试，准备在其上进行hotpatch或者ssdt/dsdt.另，直接将4409的EFI拷贝到U盘中可以正常启动系统，初始系统和u盘里的并无二异。<br>
->>02-10:学习dsdt/ssdt中，添加了自己的学习笔记和理解，接下来准备打补丁。<br>
->>02-11:解决了亮度按键映射的问题，感谢远景论坛的网友[13956737563](http://i.pcbeta.com/space-uid-4725659.html)提供的方法,在设置>键盘>快捷键>显示器，里设置一组快捷键就行,我这里F4减少亮度，F5增加。睡觉！晚上更新：ssdt/dsdt打补丁成功，解决了大部分问题，当然也带来了部分新的小问题，正在努力解决中。感谢远景大神@13956737563的无私指导，万分感谢！接下来继续优化和完善黑苹果，解决上述小问题和其他问题。并尝试学习hotpatched方法解决问题。本机的黑苹果基本完美，准备制作新的单系统到ssd，开始正常使用。<br>
->>02-12:优化了文章的内容，并打算重新制作一份补丁，并新装系统。<br>
->>02-13:删了所有的系统，启动盘也不好使了，fucked up。但是，我U盘里的系统还是可以正常使用的，开始抢救。下午修复了亮度问题，clover configurator是个很强大的软件。<br>
->>02-14:使用状态请参考EFI-update/下的changelog.md。修复了睡眠唤醒后无声问题。
->>02-15:新年快乐。昨晚也没解决什么问题，就是下载了一些软件，心得：尽量不要去苹果商店以外的地方下载软件，因为不保障有垃圾软件劫持，请尽量支持正版！另外，考虑了一番，准备使用Time Manchine进行备份系统，以免哪天突然崩掉。故将1T硬盘拆掉，将系统重新安装在ssd上，希望一切顺利。<br>
->>02-16:不知是什麼原因，系統會突然變卡，尤其在睡眠後啓動，也有可能是因爲處理多任務的原因，嘗試注入了imei，發現效果並不強烈，因爲還是會卡，看看能不能修復。<br>
->>04-09:最近的更新都在EFI-update里，介绍呢在changlog.md里。系统目前除了硬件上无法完成的问题，几乎没有其他影响使用的问题了。也可能定义不同，至少在我电脑上没有什么大问题。欢迎反馈~ <br>
 
 
 

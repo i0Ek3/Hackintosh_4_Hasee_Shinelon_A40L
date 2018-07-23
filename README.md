@@ -7,6 +7,7 @@
 - 2018-05-09: 系统基本算是配置好了，但有一点是SSD的确要比HHD快太多了，新配置的黑苹果系统卡顿较之前严重，好在不是太影响使用，毕竟我用空间换时间。<br>
 - 2018-05-15: 系统实在太卡了，真的受不鸟了，果断重新安装到SSD上。<br>
 - 2018-05-16: OK，搞定。另推荐laod的ntfs在mac下直接访问的[解决方案](https://laod.cn/free/mac-ntfs.html)。<br>
+- 2018-06-06: 贴一个在线编辑config.plist的网址[http://cloudclovereditor.altervista.org/cce/index.php](http://cloudclovereditor.altervista.org/cce/index.php)，另推荐一篇不错的帖子给新手[http://bbs.pcbeta.com/viewthread-1779539-1-1.html](http://bbs.pcbeta.com/viewthread-1779539-1-1.html)。
 - 2018-07-23: 目前还稳定使用10.13.4，之前升级过一次直接挂了，没找到问题，也没有时间继续折腾，所以目前不会更新了，除非炸的太厉害！<br>
 
 

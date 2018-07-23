@@ -14,7 +14,7 @@
 Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，姑且就不改了，这样也挺好的.文章难免有错，请不吝指出，感谢。
 
 
-## [Status](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/EFI-update/changelog.md)
+## [Status -> /EFI-update/README.md](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/EFI-update/README.md?1532355116806)
 
 ## macOS使用
 - [官方使用指南](https://help.apple.com/macOS/high-sierra/mac-basics/?lang=zh-cn#/outro)

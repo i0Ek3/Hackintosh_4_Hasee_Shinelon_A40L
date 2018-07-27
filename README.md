@@ -9,7 +9,7 @@
 - 2018-05-16: OK，搞定。另推荐laod的ntfs在mac下直接访问的[解决方案](https://laod.cn/free/mac-ntfs.html)。<br>
 - 2018-06-06: 贴一个在线编辑config.plist的网址[http://cloudclovereditor.altervista.org/cce/index.php](http://cloudclovereditor.altervista.org/cce/index.php)，另推荐一篇不错的帖子给新手[http://bbs.pcbeta.com/viewthread-1779539-1-1.html](http://bbs.pcbeta.com/viewthread-1779539-1-1.html)。
 - 2018-07-23: 目前还稳定使用10.13.4，之前升级过一次直接挂了，没找到问题，也没有时间继续折腾，所以目前不会更新了，除非炸的太厉害！<br>
-
+- 2018-07-27: 蓝牙问题通过绿联29元的蓝牙适配器4.0解决，好使，具体请看图！<br>
 
 Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，姑且就不改了，这样也挺好的.文章难免有错，请不吝指出，感谢。
 
@@ -87,6 +87,7 @@ Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，�
 ![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/原声.png)
 ![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/核显.png)
 ![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/电源.png)
+![buletooth](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/bluetooth.png)
 
 
 - 鸣谢

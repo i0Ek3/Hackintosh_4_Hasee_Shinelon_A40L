@@ -1,20 +1,23 @@
 # Hacktonish
 
-
-
-- 2018-05-05: 刚刚装好黑苹果和linux的双系统，接下来分别配置开发环境。安装上问题不大，先将Linux正常安装在128G的SSD上，再正常安装黑苹果到2T的HHD，可实现独立启动双系统，互不影响。安全布局上，会采用[@drduh大神](https://github.com/drduh)的[方案](https://github.com/drduh/macOS-Security-and-Privacy-Guide)，也希望大家重视安全问题。
-- 2018-05-09: 系统基本算是配置好了，但有一点是SSD的确要比HHD快太多了，新配置的黑苹果系统卡顿较之前严重，好在不是太影响使用，毕竟我用空间换时间。<br>
-- 2018-05-15: 系统实在太卡了，真的受不鸟了，果断重新安装到SSD上。<br>
-- 2018-05-16: OK，搞定。另推荐laod的ntfs在mac下直接访问的[解决方案](https://laod.cn/free/mac-ntfs.html)。<br>
-- 2018-06-06: 贴一个在线编辑config.plist的网址[http://cloudclovereditor.altervista.org/cce/index.php](http://cloudclovereditor.altervista.org/cce/index.php)，另推荐一篇不错的帖子给新手[http://bbs.pcbeta.com/viewthread-1779539-1-1.html](http://bbs.pcbeta.com/viewthread-1779539-1-1.html)。
-- 2018-07-23: 目前还稳定使用10.13.4，之前升级过一次直接挂了，没找到问题，也没有时间继续折腾，所以目前不会更新了，除非炸的太厉害！<br>
-- 2018-07-27: 蓝牙问题通过绿联29元的蓝牙适配器4.0解决，好使，具体请看图！<br>
+- 2018-09-25: 有时间会尝试10.14，升级或者重装。<br>
 - 2018-08-28: 重新安装了10.13.6，EFI依旧使用之前提供的，一切OK！后续考虑更换10.14。<br>
+- 2018-07-27: 蓝牙问题通过绿联29元的蓝牙适配器4.0解决，好使，具体请看图！<br>
+- 2018-07-23: 目前还稳定使用10.13.4，之前升级过一次直接挂了，没找到问题，也没有时间继续折腾，所以目前不会更新了，除非炸的太厉害！<br>
+- 2018-06-06: 贴一个在线编辑config.plist的网址[http://cloudclovereditor.altervista.org/cce/index.php](http://cloudclovereditor.altervista.org/cce/index.php)，另推荐一篇不错的帖子给新手[http://bbs.pcbeta.com/viewthread-1779539-1-1.html](http://bbs.pcbeta.com/viewthread-1779539-1-1.html)。
+- 2018-05-16: OK，搞定。另推荐laod的ntfs在mac下直接访问的[解决方案](https://laod.cn/free/mac-ntfs.html)。<br>
+- 2018-05-15: 系统实在太卡了，真的受不鸟了，果断重新安装到SSD上。<br>
+- 2018-05-09: 系统基本算是配置好了，但有一点是SSD的确要比HHD快太多了，新配置的黑苹果系统卡顿较之前严重，好在不是太影响使用，毕竟我用空间换时间。<br>
+- 2018-05-05: 刚刚装好黑苹果和linux的双系统，接下来分别配置开发环境。安装上问题不大，先将Linux正常安装在128G的SSD上，再正常安装黑苹果到2T的HHD，可实现独立启动双系统，互不影响。安全布局上，会采用[@drduh大神](https://github.com/drduh)的[方案](https://github.com/drduh/macOS-Security-and-Privacy-Guide)，也希望大家重视安全问题。
 
 **ps: 最近剁了一块2T的硬盘，故有点冲动想要重新布局系统。并打算全系安全布局，后续看看进展和成果，或许可以更新出来供大家参考。**
 
 
 Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，姑且就不改了，这样也挺好的.文章难免有错，请不吝指出，感谢。
+
+## 镜像下载
+
+- [黑果小兵提供](https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/)
 
 
 ## [Status -> /EFI-update/README.md](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/EFI-update/README.md?1532355116806)

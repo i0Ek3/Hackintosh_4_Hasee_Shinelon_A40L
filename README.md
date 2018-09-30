@@ -1,7 +1,23 @@
-# Hacktonish
+# Hacktonish for Hasse Shinelon A40L-i7
+
+Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，姑且就不改了，这样也挺好的。文章难免有错，请不吝指出，感谢。
+
+## Content
+
+* [Look @ Me](#look-@-me)
+* [Status](#status)
+* [macOS Download](#macos-download)
+* [macOS Usage](#macos-usage)
+* [Related Forum](#related-forum)
+* [Installation](@installation)
+* [Improvements](#improvements)
+* [Epilog](#epilog)
+
+
+## Look @ Me
 
 - 2018-09-25: 有时间会尝试10.14，升级或者重装。<br>
-- 2018-08-28: 重新安装了10.13.6，EFI依旧使用之前提供的，一切OK！后续考虑更换10.14。<br>
+- 2018-08-28: 重新安装了10.13.6，EFI依旧使用之前提供的，一切OK，似乎也不用单独安装无线安装包了！后续考虑更换10.14。<br>
 - 2018-07-27: 蓝牙问题通过绿联29元的蓝牙适配器4.0解决，好使，具体请看图！<br>
 - 2018-07-23: 目前还稳定使用10.13.4，之前升级过一次直接挂了，没找到问题，也没有时间继续折腾，所以目前不会更新了，除非炸的太厉害！<br>
 - 2018-06-06: 贴一个在线编辑config.plist的网址[http://cloudclovereditor.altervista.org/cce/index.php](http://cloudclovereditor.altervista.org/cce/index.php)，另推荐一篇不错的帖子给新手[http://bbs.pcbeta.com/viewthread-1779539-1-1.html](http://bbs.pcbeta.com/viewthread-1779539-1-1.html)。
@@ -13,16 +29,18 @@
 **ps: 最近剁了一块2T的硬盘，故有点冲动想要重新布局系统。并打算全系安全布局，后续看看进展和成果，或许可以更新出来供大家参考。**
 
 
-Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，姑且就不改了，这样也挺好的.文章难免有错，请不吝指出，感谢。
+## Status
 
-## 镜像下载
+[Status -> /EFI-update/README.md](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/EFI-update/README.md?1532355116806)
+
+
+## macOS Download
 
 - [黑果小兵提供](https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/)
 
 
-## [Status -> /EFI-update/README.md](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/EFI-update/README.md?1532355116806)
+## macOS Usage
 
-## macOS使用
 - [官方使用指南](https://help.apple.com/macOS/high-sierra/mac-basics/?lang=zh-cn#/outro)
 - [xclient](http://xclient.info/?_=8854065baa5c04fa30fc193b4a000714)
 - [MAS](https://www.waerfa.com/tag/mas)
@@ -32,7 +50,9 @@ Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，�
 - [mactex](http://www.tug.org/mactex/mactex-download.html)
 - [软件推荐](https://www.zhihu.com/question/27158546)
 
+
 ## Related Forum
+
 - [远景](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1753483&page=1#pid47417983)
 - [tonymacx86](https://www.tonymacx86.com/)
 - [osx86](https://www.osx86.net)
@@ -57,7 +77,6 @@ Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，�
 
 
 - 安装过程
-    - [电脑配置](https://github.com/i0Ek3/Funny-ianpasm/blob/master/hacktonish/info/pcinfo.txt)
     - 材料准备
         - 笔记本（最好是windows系统，方便操作，我使用的是win-to-go），16G U盘
         - 系统镜像，看清楚你的是原版还是经过修改的，修改的有的会自带四叶草等
@@ -79,6 +98,7 @@ Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，�
         - 快速启动，在苹果系统下运行clover configurator,挂载efi分区并加载config.plist配置文件，在clover configurator左边的boot项下选择default boot value，填写你想要直接进入的系统的名字，timeout设为0，保存覆盖重启即可。
 
 - 系统图赏
+
 ![02-11](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/up.png)
 ![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/屏幕快照%202018-02-08%2011.44.16.png)
 ![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/屏幕快照%202018-02-08%2011.46.19.png)
@@ -117,17 +137,15 @@ Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，�
 
 - 下载提供
     - [baiduPCS_Go](https://github.com/iikira/BaiduPCS-Go/releases) 下载速度很快的命令行版本的百度云，我用来下载dmg镜像文件
-    - EFI 链接:https://pan.baidu.com/s/1gg84hMV  密码:ieij
     - macOS dmg 链接:https://pan.baidu.com/s/1eSToGuQ  密码:fqz5
     - 制作U盘启动所需材料 链接:https://pan.baidu.com/s/1dGJx8pr  密码:vvl8
 
 
-## 优化与完善
+## Improvements
 
 - [推荐1](http://bbs.pcbeta.com/viewthread-1742550-1-1.html)
 - [推荐2](http://i.pcbeta.com/space-uid-3322572.html)
 - [推荐3](https://www.jianshu.com/p/bd57a9324f08)
-
 - [仿冒声卡驱动](http://bbs.pcbeta.com/viewthread-1387094-1-1.html "用于解决睡眠无声问题")
 - [hotpatch](https://blog.daliansky.net/hotpatch-detailed-solution.html)
 - [DSDT/SSDT补丁](http://blog.csdn.net/wr132/article/details/54798754)
@@ -144,10 +162,12 @@ Hacktonish--原本是因为记错单词了，不过和hackintosh也挺相似，�
 
 
 ### Linux下提取ssdt/dsdt及声卡信息
+
 ```Shell
 $ sudo cp -r /sys/fireware/acpi/table/* /target-path
 $ lspci -nn | grep Audio > ~/audio_info.txt
 ```
+
 
 ### 编译最新版的iasl
 
@@ -160,7 +180,9 @@ $ make clean && make && sudo make install
 $ iasl
 ```
 
+
 ### 编译及反编译ssdt/dsdt
+
 **DO NOT OPEN .aml FILES WITH ANY TOOLS**
 - 根据上面提取的文件，只保留和dsdt/ssdt相关的文件即可
 - 利用2aml.sh将文件转换为.aml格式，用法： ./2aml.sh 1 2 .. 8
@@ -175,6 +197,7 @@ $ iasl -da -dl -fe refs.txt DSDT.aml SSDT*.aml
 
 
 ### 修改相关代码并打补丁
+
 - 确保你添加了相关的补丁源
 - 修改dsl文件中的代码，并打上你需要的补丁，或者你想要实现功能的补丁，直至编译零错误<br>
 *建议观看@daxuexinsheng的视频，文末有地址*
@@ -191,6 +214,8 @@ ps:只看教程可能晦涩难懂，我这里保存了远景论坛@daxuexinsheng
 链接:https://pan.baidu.com/s/1dCcpm2  密码:e9bs
 
 
+## Epilog
 
+自己动手，丰衣足食。祝大家心想事成^_^!
 
 

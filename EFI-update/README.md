@@ -102,12 +102,21 @@ PS: 此处开始，系统变更为10.13.4，直接套用可能有不兼容情况
 - Added EFI-10.13.4(myself version)
     - Update to 10.13.4
     - Update kexts Lilu, Shiki, AppleALC
-    - Already replaced my SSDT-PRGen.aml to EFI(other version you should replaced it)
+    - Already replaced my SSDT-PRGen.aml to EFI(other version please replace it)
+
+
+## 2018-09-30
+
+- Update EFI to 10.13.6
+- Update kext
+- Make a bit of extra changes
+- Have fun and wait my 10.14
 
 
 # Trouble
+
 - 独显不可用
 - 新装系统后，无线需要手动安装解决，没啥大问题，就是麻烦点
-- 其他的问题及时补充中......
+- You tell me......
 
 

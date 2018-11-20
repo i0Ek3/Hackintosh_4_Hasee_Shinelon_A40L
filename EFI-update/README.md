@@ -113,6 +113,19 @@ PS: 此处开始，系统变更为10.13.4，直接套用可能有不兼容情况
 - Have fun and wait my 10.14
 
 
+## 2018-11-20
+
+- Update EFI to 10.14
+- Based on ym2008's 10.14 version
+- Modified something for daily use
+    - like touch pad
+- Bugs fix wait for ym2008's next version
+    - like video ouput
+    - find yourself
+    
+
+
+
 # Trouble
 
 - 独显不可用

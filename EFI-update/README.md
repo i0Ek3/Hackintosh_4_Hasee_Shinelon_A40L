@@ -115,6 +115,7 @@ PS: 此处开始，系统变更为10.13.4，直接套用可能有不兼容情况
 
 ## 2018-11-20
 
+- EFI-10.14
 - Update EFI to 10.14
 - Based on ym2008's 10.14 version
 - Modified something for daily use
@@ -122,7 +123,15 @@ PS: 此处开始，系统变更为10.13.4，直接套用可能有不兼容情况
 - Bugs fix wait for ym2008's next version
     - like video ouput
     - find yourself
-    
+
+
+## 2018-02-16
+
+- EFI-10.14.3
+- Based on [@aryuan](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1795353&highlight=%EC%C5%C1%FA)'s EFI 
+- Modified something for daily use
+- No bugs yet, or you tell me
+
 
 
 

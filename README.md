@@ -6,6 +6,7 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 * [Look @ Me](#look-@-me)
 * [Usage](#usage)
+* [Attention](#attention)
 * [Status](#status)
 * [macOS Download](#macos-download)
 * [macOS Usage](#macos-usage)
@@ -45,6 +46,14 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 大概就是这些，祝好，有问题可以题issue。
 
+
+## Attention
+
+上传了在网上找到的一份 A40L 拆机教程，当作备用，比如清灰或者更换内部组件等。之前因为不知道具体拆解步骤，导致部分内置组件被我破坏，并且导致键位凸起，倒不影响使用，就是心理别扭，所以今天又拆了一遍，解决了键位凸起问题。
+
+注意外围都是长一点的螺丝，只有内部才是短的。而之前的键位凸起问题便是由于我错误的将长螺丝放到了短螺丝的位置造成的。
+
+其他的问题暂且还没有遇到，如果再有的话继续更新。告诫各位网友，玩机需谨慎，祝好！
 
 
 ## Status

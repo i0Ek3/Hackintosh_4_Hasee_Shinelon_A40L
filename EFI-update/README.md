@@ -1,5 +1,13 @@
 # Change Log
 
+## 2019-03-04
+
+- EFI-10.14.3-hdmi-enable
+- Modified config file to enable hdmi
+- Based EFI-10.14 which from ym2008 
+
+
+
 ## 2019-02-16
 
 - EFI-10.14.3

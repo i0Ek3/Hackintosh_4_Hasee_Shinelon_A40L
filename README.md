@@ -131,6 +131,9 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 - 系统图赏
 
+![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/newScreen.jpg)
+![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/multiDisplay.jepg)
+![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/multi.jpg)
 ![02-11](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/up.png)
 ![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/屏幕快照%202018-02-08%2011.44.16.png)
 ![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/屏幕快照%202018-02-08%2011.46.19.png)

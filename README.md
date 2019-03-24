@@ -8,6 +8,7 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 * [Usage](#usage)
 * [Attention](#attention)
 * [Status](#status)
+* [Software](#software)
 * [macOS Download](#macos-download)
 * [macOS Usage](#macos-usage)
 * [Related Forum](#related-forum)
@@ -62,6 +63,56 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 ## Status
 
 [Status -> /EFI-update/README.md](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/EFI-update/README.md?1532355116806)
+
+
+## Software
+
+记录下我目前在 10.14.3 上常用的软件，以免哪天电脑崩了，尸骨全无。尽管每个月都会进行几次备份，但我依然会多做一些措施，这样放心。当然了，其他的一些软件你以可以参考我的[这个链接](https://github.com/i0Ek3/GeekWay/blob/master/App.md)，涵盖很多。但这里主要是我现在的笔记本上常用的，并做一些精简，去除一些功能重复但不怎么使用的软件，只列出名字，其他的自行下载吧。
+
+- iTerm
+- VLC, IINA
+- ThinkerTool
+- MEGASync
+- Reeder
+- Handshaker
+- Flux
+- Spark
+- ShadowsocksX-NG
+- ndm, Cakebrew
+- calibre
+- balenaEtcher
+- FinderGo
+- GPG Keychain
+- Xnip
+- Itsycal
+- linux-command
+- DesktopNaotu
+- eZip, Keka
+- zoom.us
+- Docker
+- CotEditor, Skim
+- Alfred 3, Dash
+- Motrix, Transmission, Proxyee Down
+- Typora, Notion, Bear, Ulysses
+- MacTeX, texstudio, texmaker
+- GitKraken, Github Desktop
+- DBeaver, Redis, rdm, Sequel Pro
+- Xcode, JetBrains, Understand, Sourcetree
+- Atom，Sublime Text，Visual Studio Code
+- Telegram, Whalebird, Slack, Maipo
+- Parallels Desktop, VirtualBox, VMware Fusion
+- OmniGraffle, Sketch, StarUML
+- Microsoft Word, Excel, PowerPoint, OneDrive
+- Vivaldi, Ungoogled-Chromium, LibreFox, Chrom
+- 网易云音乐，迅雷，百度云，人人影视，微信，QQ，钉钉，番茄土豆
+
+全部软件可参考下面几幅截图，上面列出来的是我日后必备的，尽量减少 SSD 的存储开销。其他的命令行软件这里没有列出，可以参考我上面的链接。
+
+![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/app1.jpg)
+![2](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/app2.jpg)
+![3](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/app3.jpg)
+![4](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/app4.jpg)
+![5](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/app5.jpg)
 
 
 ## macOS Download

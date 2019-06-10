@@ -1,5 +1,12 @@
 # Change Log
 
+# 2019-06-10
+
+- My own hotpatch files for A40L-i7/i5
+- Just for tesing...Update later
+
+
+
 ## 2019-03-04
 
 - EFI-10.14.3-hdmi-enable

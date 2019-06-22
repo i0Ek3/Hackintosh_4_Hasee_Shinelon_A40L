@@ -4,6 +4,9 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 ## Content
 
+<details>
+<summary>Content</summary>
+
 * [Changelog](#changelog)
 * [Usage](#usage)
 * [Attention](#attention)
@@ -16,10 +19,14 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 * [Improvements](#improvements)
 * [Epilog](#epilog)
 
+</details>
 
 ## Changelog
 
-- 2019-06-22: 重新定制了 USB，在 10.14.x 下只识别了 A40L 左边的 USB 3.0，即传输速率 5Gb/s，不过好比一个都没有，继续研究。突然发现，10.13.x 的时候，用 ssdt-dsdt 定制的都是很完美的。
+<details>
+<summary>Changelog</summary>
+
+- 2019-06-22: 重新定制了 USB，在 10.14.x 下只识别了 A40L 左边的 USB 3.0，即传输速率 5Gb/s，不过好比一个都没有，继续研究。对了，X230 的也重新定制了，还不错呦！突然发现，10.13.x 的时候，用 ssdt-dsdt 定制的都是很完美的，可以养老。
 - 2019-03-04: 由于买了新的显示器，原本的配置文件无法完美支持外接显示器，虽然我做了些改动后可以使用，但还是想着自己弄一个，所以准备 hotpatch 一下，没有日子。
 - 2018-11-20: 更新了 10.14，基于 ym2008 的版本。实在是没有时间折腾，具体的请等待 ym2008 的下一个版本吧！
 - 2018-09-25: 有时间会尝试 10.14，升级或者重装。
@@ -34,8 +41,12 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 **ps: 最近剁了一块 2T 的硬盘，故有点冲动想要重新布局系统。并打算全系安全布局，后续看看进展和成果，或许可以更新出来供大家参考。**
 
+</details>
 
 ## Usage
+
+<details>
+<summary>Usage</summary>
 
 突然发现，一直都没有使用说明，哈哈，实在是愚钝，现在补上。当然了，如果你想按着教程制作自己的补丁，可以使用我 dsdt_ssdt 文件夹里的我没有 patched 文件，耐心一点，会有收获。你也可以用过下面的教程里的方法自己提取，也很简单。
 
@@ -49,8 +60,12 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 大概就是这些，祝好，有问题可以提 issue。
 
+</details>
 
 ## Attention
+
+<details>
+<summary>Attention</summary>
 
 上传了在网上找到的一份 A40L 拆机教程，当作备用，比如清灰或者更换内部组件等。之前因为不知道具体拆解步骤，导致部分内置组件被我破坏，并且导致键位凸起，倒不影响使用，就是心理别扭，所以今天又拆了一遍，解决了键位凸起问题。
 
@@ -60,13 +75,17 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 其他的问题暂且还没有遇到，如果再有的话继续更新。告诫各位网友，玩机需谨慎，并且要有耐心，毕竟之前我都已经打算卖掉这个破烂了！打脸，说多了都是泪啊～
 
+</details>
+
 
 ## Status
 
 [Status -> /EFI-update/README.md](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/EFI-update/README.md?1532355116806)
 
-
 ## Software
+
+<details>
+<summary>Software</summary>
 
 记录下我目前在 10.14.3 上常用的软件，以免哪天电脑崩了，尸骨全无。尽管每个月都会进行几次备份，但我依然会多做一些措施，这样放心。当然了，其他的一些软件你以可以参考我的[这个链接](https://github.com/i0Ek3/GeekWay/blob/master/App.md)，涵盖很多。但这里主要是我现在的笔记本上常用的，并做一些精简，去除一些功能重复但不怎么使用的软件，只列出名字，其他的自行下载吧。
 
@@ -115,6 +134,7 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 ![4](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/app4.jpg)
 ![5](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/app5.jpg)
 
+</details>
 
 ## macOS Download
 

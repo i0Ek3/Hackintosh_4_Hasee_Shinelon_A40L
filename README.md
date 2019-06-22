@@ -4,9 +4,6 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 ## Content
 
-<details>
-<summary>Content</summary>
-
 * [Changelog](#changelog)
 * [Usage](#usage)
 * [Attention](#attention)
@@ -19,7 +16,6 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 * [Improvements](#improvements)
 * [Epilog](#epilog)
 
-</details>
 
 ## Changelog
 
@@ -143,6 +139,9 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 ## macOS Usage
 
+<details>
+<summary>macOS Usage</summary>
+
 - [官方使用指南](https://help.apple.com/macOS/high-sierra/mac-basics/?lang=zh-cn#/outro)
 - [xclient](http://xclient.info/?_=8854065baa5c04fa30fc193b4a000714)
 - [MAS](https://www.waerfa.com/tag/mas)
@@ -153,7 +152,12 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 - [软件推荐](https://www.zhihu.com/question/27158546)
 
 
+</details>
+
 ## Related Forum
+
+<details>
+<summary>Related Forum</summary>
 
 - [远景](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1753483&page=1#pid47417983)
 - [tonymacx86](https://www.tonymacx86.com/)
@@ -169,8 +173,12 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 - [Create macOS installation USB](https://www.tonymacx86.com/threads/how-to-create-a-macos-high-sierra-public-beta-installation-usb.225520/)
 - [猫叔博客](https://www.maoshu.cc)
 
+</details>
 
 ## Installation
+
+<details>
+<summary>Installation</summary>
 
 - 前情提要
     - 15年的时候装过一次黑苹果，遗憾于当时没能坚持，故只进入了苹果系统后便放弃折腾了，从那以后，几乎完全使用Linux了。
@@ -251,8 +259,12 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
     - macOS dmg 链接:https://pan.baidu.com/s/1eSToGuQ  密码:fqz5
     - 制作U盘启动所需材料 链接:https://pan.baidu.com/s/1dGJx8pr  密码:vvl8
 
+</details>
 
 ## Improvements
+
+<details>
+<summary>Improvements</summary>
 
 - [推荐1](http://bbs.pcbeta.com/viewthread-1742550-1-1.html)
 - [推荐2](http://i.pcbeta.com/space-uid-3322572.html)
@@ -324,6 +336,8 @@ iasl *.dsl
 ps:只看教程可能晦涩难懂，我这里保存了远景论坛@daxuexinsheng录制的视频以供参考，感谢他的付出。<br>
 链接:https://pan.baidu.com/s/1dCcpm2  密码:e9bs
 
+
+</details>
 
 ## Epilog
 

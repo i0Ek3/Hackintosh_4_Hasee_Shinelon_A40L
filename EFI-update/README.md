@@ -1,39 +1,24 @@
-# Change Log
+# EFI configuration
 
-# 2019-06-10
+> 好吧，还是记录点什么吧，每次想要重新整的时候都得从头开始，是有点浪费时间。就简单记录下目前的 EFI 配置情况吧！
 
-- My own hotpatch files for A40L-i7/i5
-- Just for tesing...Update later
-
-
-
-## 2019-03-04
-
-- EFI-10.14.3-hdmi-enable
-- Modified config file to enable hdmi
-- Based EFI-10.14 which from ym2008 
+EFI 主要还是 hotpatch 和 驱动，这里主要说下我知道的 hotpatch 吧，慢慢更新。
 
 
 
-## 2019-02-16
+<details>
+<summary>Changelog</summary>
 
-- EFI-10.14.3
-- Based on [@aryuan](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1795353&highlight=%EC%C5%C1%FA)'s EFI 
-- Modified something for daily use
-- No bugs yet, or you tell me
+## 2019-06-22
 
+- 删除了多余 EFI 文件
+- EFI-10.14.3 是在 ym2008 基础上修改的，HDMI 和 USB 都OK
 
-## 2018-11-20
+## 2019-06-10
 
-- EFI-10.14
-- Update EFI to 10.14
-- Based on ym2008's 10.14 version
-- Modified something for daily use
-    - like touch pad
-- Bugs fix wait for ym2008's next version
-    - like video ouput
-    - codes on boot screen
-    - find yourself
+- EFI-10.14.x
+- My own testing hotpatch files for A40L-i7/i5, just a basic config, not yet repaired issues, update later
+- Themes from ym2008 and aryuan, merci for them
 
 
 ## 2018-09-30
@@ -46,67 +31,14 @@
 
 ## 2018-05-12
 
-- Renamed EFI-latest to EFI-10.13.3
-- Renamed EFI-ym2008-latest to EFI-ym2008-10.13.3
-- Added EFI-ym2008-10.13.4
-- Added EFI-10.13.4(myself version)
-    - Update to 10.13.4
-    - Update kexts Lilu, Shiki, AppleALC
-    - Already replaced my SSDT-PRGen.aml to EFI(other version please replace it)
-
-
-## 2018-05-09
-
-- 删除多余EFI文件，保留了10.13.3的稳定版本EFI-latest和EFI-ym2008-latest
-- 删除了10.13.4版本的EFI文件，后续重新添加
-
-
-## 2018-04-26 
-
-- 删除/EFI-ym2008-latest-v1
-- 增加作者最近的更新/EFI-ym2008-0425(没有替换文件，没有测试)
-
-
-## 2018-04-14
-
-PS: 此处开始，系统变更为10.13.4，直接套用可能有不兼容情况，建议先使用10.13.4之前的版本，或者做相应修改后再使用。
-
-- EFI-latest-v1
-    - 系统更新至10.13.4，驱动暂未更新
-
-- EFI-ym2008-latest-v1
-    - 作者更新至10.13.4
-    - 直接替换EFI文件后会无法启动，请做相应调整。如需了解更多，请参看原作者的介绍
-
-
-## 2018-03-18
-
-- EFI-latest 
-    - 最近稳定使用的，我也不知道有啥更改
-
-- EFI-ym2088-latest 
-    - 更换了i7-4710MQ的ssdt文件,炫龙A40L可直接使用(仅针对i7-4710MQ)EFI文件
-    - 原作者更新了最新驱动到10.13.3
-    - 无线需要通过其他办法解决(通过安装包无法解决)，比如原作者的方法
-    - 更换背景不再有花屏现象，开机速度提升很多
-    - 睡眠正常，睡眠后音频正常
-    - 暂无其他问题
+- Update to 10.13.4
+- Update kexts Lilu, Shiki, AppleALC
+- Already replaced my SSDT-PRGen.aml to EFI(other version please replace it)
 
 
 ## 2018-02-27
 
 - 更换了触摸板驱动，手势稍有变化，但更符合原生体验
-
-
-## 2018-02-19 
-
-- 添加[ym2008](https://github.com/ym2008)的版本
-- 基于hotpatch
-- 整体效果不错，风扇声音更小
-- 触摸板全部手势可用
-- 亮度选项有刷新频率
-- 运行过程中会有花屏现象，比如换背景图案（建议严格按照作者的要求操作，毕竟他的机子上没有这些问题的）
-- 开机速度较慢
 
 
 ## 2018-02-14
@@ -132,16 +64,18 @@ PS: 此处开始，系统变更为10.13.4，直接套用可能有不兼容情况
 - usb接口正常,不过识别了两个2.0一个3.0
 - 电池状态及电源管理正常
 - 系统使用流畅，无卡顿
-- 读卡器不可用 #001
-- 没法使用独立显卡 #002
-- 蓝牙不可用 #003
+- 读卡器不可用
+- 没法使用独立显卡
+- 蓝牙不可用
 - 开机速度较快
 
+</details>
 
 # Trouble
 
 - 独显不可用
-- 新装系统后，无线需要手动安装解决，没啥大问题，就是麻烦点
+- 蓝牙需购买 USB 蓝牙接收器或者更换网卡，可解决无线和蓝牙的问题
+- 或者无线手动安装一下可以解决，没啥大问题，就是麻烦点
 - You tell me......
 
 

@@ -4,7 +4,7 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 ## Content
 
-* [Look @ Me](#look-@-me)
+* [Changelog](#changelog)
 * [Usage](#usage)
 * [Attention](#attention)
 * [Status](#status)
@@ -17,36 +17,37 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 * [Epilog](#epilog)
 
 
-## Look @ Me
+## Changelog
 
-- 2019-03-04: 由于买了新的显示器，原本的配置文件无法完美支持外接显示器，虽然我做了些改动后可以使用，但还是想着自己弄一个，所以准备 hotpatch 一下，没有日子。<br>
-- 2018-11-20: 更新了10.14，基于ym2008的版本。实在是没有时间折腾，具体的请等待ym2008的下一个版本吧！<br>
-- 2018-09-25: 有时间会尝试10.14，升级或者重装。<br>
-- 2018-08-28: 重新安装了10.13.6，EFI依旧使用之前提供的，一切OK，似乎也不用单独安装无线安装包了！后续考虑更换10.14。<br>
-- 2018-07-27: 蓝牙问题通过绿联29元的蓝牙适配器4.0解决，好使，具体请看图！<br>
-- 2018-07-23: 目前还稳定使用10.13.4，之前升级过一次直接挂了，没找到问题，也没有时间继续折腾，所以目前不会更新了，除非炸的太厉害！<br>
-- 2018-06-06: 贴一个在线编辑config.plist的网址[http://cloudclovereditor.altervista.org/cce/index.php](http://cloudclovereditor.altervista.org/cce/index.php)，另推荐一篇不错的帖子给新手[http://bbs.pcbeta.com/viewthread-1779539-1-1.html](http://bbs.pcbeta.com/viewthread-1779539-1-1.html)。
-- 2018-05-16: OK，搞定。另推荐laod的ntfs在mac下直接访问的[解决方案](https://laod.cn/free/mac-ntfs.html)。<br>
-- 2018-05-15: 系统实在太卡了，真的受不鸟了，果断重新安装到SSD上。<br>
-- 2018-05-09: 系统基本算是配置好了，但有一点是SSD的确要比HHD快太多了，新配置的黑苹果系统卡顿较之前严重，好在不是太影响使用，毕竟我用空间换时间。<br>
-- 2018-05-05: 刚刚装好黑苹果和linux的双系统，接下来分别配置开发环境。安装上问题不大，先将Linux正常安装在128G的SSD上，再正常安装黑苹果到2T的HHD，可实现独立启动双系统，互不影响。安全布局上，会采用[@drduh大神](https://github.com/drduh)的[方案](https://github.com/drduh/macOS-Security-and-Privacy-Guide)，也希望大家重视安全问题。
+- 2019-06-22: 重新定制了 USB，在 10.14.x 下只识别了 A40L 左边的 USB 3.0，即传输速率 5Gb/s，不过好比一个都没有，继续研究。突然发现，10.13.x 的时候，用 ssdt-dsdt 定制的都是很完美的。
+- 2019-03-04: 由于买了新的显示器，原本的配置文件无法完美支持外接显示器，虽然我做了些改动后可以使用，但还是想着自己弄一个，所以准备 hotpatch 一下，没有日子。
+- 2018-11-20: 更新了 10.14，基于 ym2008 的版本。实在是没有时间折腾，具体的请等待 ym2008 的下一个版本吧！
+- 2018-09-25: 有时间会尝试 10.14，升级或者重装。
+- 2018-08-28: 重新安装了 10.13.6，EFI依旧使用之前提供的，一切 OK，似乎也不用单独安装无线安装包了！后续考虑更换 10.14。
+- 2018-07-27: 蓝牙问题通过绿联 29 元的蓝牙适配器 4.0 解决，好使，具体请看图！
+- 2018-07-23: 目前还稳定使用 10.13.4，之前升级过一次直接挂了，没找到问题，也没有时间继续折腾，所以目前不会更新了，除非炸的太厉害！
+- 2018-06-06: 贴一个在线编辑 config.plist 的网址[http://cloudclovereditor.altervista.org/cce/index.php](http://cloudclovereditor.altervista.org/cce/index.php)，另推荐一篇不错的帖子给新手[http://bbs.pcbeta.com/viewthread-1779539-1-1.html](http://bbs.pcbeta.com/viewthread-1779539-1-1.html)。
+- 2018-05-16: OK，搞定。另推荐 laod 的 ntfs 在 mac 下直接访问的[解决方案](https://laod.cn/free/mac-ntfs.html)。
+- 2018-05-15: 系统实在太卡了，真的受不鸟了，果断重新安装到 SSD 上。
+- 2018-05-09: 系统基本算是配置好了，但有一点是 SSD 的确要比 HHD 快太多了，新配置的黑苹果系统卡顿较之前严重，好在不是太影响使用，毕竟我用空间换时间。
+- 2018-05-05: 刚刚装好黑苹果和 linux 的双系统，接下来分别配置开发环境。安装上问题不大，先将 Linux 正常安装在 128G 的 SSD 上，再正常安装黑苹果到 2T 的 HHD，可实现独立启动双系统，互不影响。安全布局上，会采用[@drduh大神](https://github.com/drduh)的[方案](https://github.com/drduh/macOS-Security-and-Privacy-Guide)，也希望大家重视安全问题。
 
-**ps: 最近剁了一块2T的硬盘，故有点冲动想要重新布局系统。并打算全系安全布局，后续看看进展和成果，或许可以更新出来供大家参考。**
+**ps: 最近剁了一块 2T 的硬盘，故有点冲动想要重新布局系统。并打算全系安全布局，后续看看进展和成果，或许可以更新出来供大家参考。**
 
 
 ## Usage
 
-突然发现，一直都没有使用说明，哈哈，实在是愚钝，现在补上。当然了，如果你想按着教程制作自己的补丁，可以使用我dsdt_ssdt文件夹里的我没有patched文件，耐心一点，会有收获。你也可以用过下面的教程里的方法自己提取，也很简单。
+突然发现，一直都没有使用说明，哈哈，实在是愚钝，现在补上。当然了，如果你想按着教程制作自己的补丁，可以使用我 dsdt_ssdt 文件夹里的我没有 patched 文件，耐心一点，会有收获。你也可以用过下面的教程里的方法自己提取，也很简单。
 
-现在来说说如何使用，前提是你要有一个黑苹果启动盘，然后挂载它的EFI分区，直接拷贝我EFI-update文件夹下对应的版本进行覆盖即可，然后安装就行。
+现在来说说如何使用，前提是你要有一个黑苹果启动盘，然后挂载它的 EFI 分区，直接拷贝我 EFI-update 文件夹下对应的版本进行覆盖即可，然后安装就行。
 
-至于启动盘的制作，可以看下面的教程。镜像的选择可以使用黑果小兵的，下面有提供链接，如果不好使可以换一个试试，我亲测的是10.14，然后替换EFI文件。
+至于启动盘的制作，可以看下面的教程。镜像的选择可以使用黑果小兵的，下面有提供链接，如果不好使可以换一个试试，我亲测的是 10.14，然后替换EFI文件。
 
-安装完成后需要手动安装AR9004WB-WIFI.pkg来启用无线网络，此后就不需要了。如有意外，可以再手动安装一下，这回就差不多了。
+安装完成后需要手动安装 AR9004WB-WIFI.pkg来启用无线网络，此后就不需要了。如有意外，可以再手动安装一下，这回就差不多了。
 
-这就可以了，没有其他繁琐的步骤了。个人推荐使用我的10.13.6版本的EFI，稳定，且可以使用外接显示器。10.14是基于ym2008的版本进行修改的，有一些小问题，比如无法外接显示器。想着自己重新hotpatch一套，但又懒又笨，不大想折腾了。所以不好说，万一就有了呢？
+这就可以了，没有其他繁琐的步骤了。个人推荐使用我的 10.13.6 版本的 EFI，稳定，且可以使用外接显示器。 10.14 是基于 ym2008 的版本进行修改的，有一些小问题，比如无法外接显示器。想着自己重新 hotpatch 一套，但又懒又笨，不大想折腾了。所以不好说，万一就有了呢？
 
-大概就是这些，祝好，有问题可以题issue。
+大概就是这些，祝好，有问题可以提 issue。
 
 
 ## Attention
@@ -200,6 +201,10 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 ![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/核显.png)
 ![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/电源.png)
 ![buletooth](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/bluetooth.png)
+
+![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/USB-1.jpg)
+
+![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/USB-2.jpg)
 
 
 - 鸣谢

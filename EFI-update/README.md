@@ -4,6 +4,15 @@
 
 EFI 主要还是 hotpatch 和 驱动，这里主要说下我知道的 hotpatch 吧，慢慢更新。
 
+### hotpatch 的一些选项
+
+- -wegnoegpu 选项可以用来禁用独立显卡
+- USB 的定制可以通过在 hacktool 下拔插 2.0 和 3.0 的优盘来实现，然后导出 .aml 文件放入 patched 文件夹里即可，记得先在 config.list 文件中取消 USB 端口禁用，重启后再开始定制，定制完成后打开端口禁用，重启验证即可
+
+
+
+
+
 
 
 <details>

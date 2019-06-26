@@ -1,26 +1,27 @@
-# Hacktonish for Hasse Shinelon A40L-i7
+# Hacktonish for Hasse Shinelon A40L-i5/i7
 
-Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，姑且就不改了，这样也挺好的。文章难免有错，请不吝指出，感谢。
+Hacktonish，原本是因为记错单词了，不过和 hackintosh 也挺相似，姑且就不改了，这样也挺好的。文章难免有错，请不吝指出，感谢。
 
-## Content
+<div align="center">
+Content
+&emsp;&emsp;
 
-* [Changelog](#changelog)
-* [Usage](#usage)
-* [Attention](#attention)
-* [Status](#status)
-* [Software](#software)
-* [macOS Download](#macos-download)
-* [macOS Usage](#macos-usage)
-* [Related Forum](#related-forum)
-* [Installation](@installation)
-* [Improvements](#improvements)
-* [Epilog](#epilog)
+* [Changelog 更新日志](#changelog-更新日志)
+* [Usage 使用方法](#usage-使用方法)
+* [Attention 注意事项](#attention-注意事项)
+* [Status 当前状态](#status-当前状态)
+* [Software 软件推荐](#software-软件推荐)
+* [macOS Download 系统下载](#macos-download-系统下载)
+* [macOS Usage 系统使用](#macos-usage-系统使用)
+* [Related Forum 相关论坛](#related-forum-相关论坛)
+* [Installation 安装流程](#installation-安装流程)
+* [Improvements 系统优化](#improvements-系统优化)
+* [Epilog 结语](#epilog-结语)
+
+</div>
 
 
-## Changelog
-
-<details>
-<summary>Changelog</summary>
+<b><details><summary>Changelog 更新日志</summary></b>
 
 - 2019-06-22: 重新定制了 USB，在 10.14.x 下只识别了 A40L 左边的 USB 3.0，即传输速率 5Gb/s，不过好比一个都没有，继续研究。对了，X230 的也重新定制了，还不错呦！突然发现，10.13.x 的时候，用 ssdt-dsdt 定制的都是很完美的，可以养老。
 - 2019-03-04: 由于买了新的显示器，原本的配置文件无法完美支持外接显示器，虽然我做了些改动后可以使用，但还是想着自己弄一个，所以准备 hotpatch 一下，没有日子。
@@ -39,10 +40,7 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 </details>
 
-## Usage
-
-<details>
-<summary>Usage</summary>
+<b><details><summary>Usage 使用方法</summary></b>
 
 突然发现，一直都没有使用说明，哈哈，实在是愚钝，现在补上。当然了，如果你想按着教程制作自己的补丁，可以使用我 dsdt_ssdt 文件夹里的我没有 patched 文件，耐心一点，会有收获。你也可以用过下面的教程里的方法自己提取，也很简单。
 
@@ -58,10 +56,8 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 </details>
 
-## Attention
 
-<details>
-<summary>Attention</summary>
+<b><details><summary>Attention 注意事项</summary></b>
 
 上传了在网上找到的一份 A40L 拆机教程，当作备用，比如清灰或者更换内部组件等。之前因为不知道具体拆解步骤，导致部分内置组件被我破坏，并且导致键位凸起，倒不影响使用，就是心理别扭，所以今天又拆了一遍，解决了键位凸起问题。
 
@@ -74,14 +70,13 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 </details>
 
 
-## Status
+<b><details><summary>Status 当前状态</summary></b>
 
 [Status -> /EFI-update/README.md](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/EFI-update/README.md?1532355116806)
 
-## Software
+</details>
 
-<details>
-<summary>Software</summary>
+<b><details><summary>Software 软件推荐</summary></b>
 
 记录下我目前在 10.14.3 上常用的软件，以免哪天电脑崩了，尸骨全无。尽管每个月都会进行几次备份，但我依然会多做一些措施，这样放心。当然了，其他的一些软件你以可以参考我的[这个链接](https://github.com/i0Ek3/GeekWay/blob/master/App.md)，涵盖很多。但这里主要是我现在的笔记本上常用的，并做一些精简，去除一些功能重复但不怎么使用的软件，只列出名字，其他的自行下载吧。
 
@@ -132,15 +127,13 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 </details>
 
-## macOS Download
+<b><details><summary>macOS Download 系统下载</summary></b>
 
 - [黑果小兵提供](https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/)
 
+</details>
 
-## macOS Usage
-
-<details>
-<summary>macOS Usage</summary>
+<b><details><summary>macOS Usage 系统使用</summary></b>
 
 - [官方使用指南](https://help.apple.com/macOS/high-sierra/mac-basics/?lang=zh-cn#/outro)
 - [xclient](http://xclient.info/?_=8854065baa5c04fa30fc193b4a000714)
@@ -154,10 +147,7 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 </details>
 
-## Related Forum
-
-<details>
-<summary>Related Forum</summary>
+<b><details><summary>Related Forum 相关论坛</summary></b>
 
 - [远景](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1753483&page=1#pid47417983)
 - [tonymacx86](https://www.tonymacx86.com/)
@@ -175,10 +165,7 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 </details>
 
-## Installation
-
-<details>
-<summary>Installation</summary>
+<b><details><summary>Installation 安装流程</summary></b>
 
 - 前情提要
     - 15年的时候装过一次黑苹果，遗憾于当时没能坚持，故只进入了苹果系统后便放弃折腾了，从那以后，几乎完全使用Linux了。
@@ -229,9 +216,7 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 ![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/核显.png)
 ![1](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/电源.png)
 ![buletooth](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/bluetooth.png)
-
 ![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/USB-1.jpg)
-
 ![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/USB-2.jpg)
 
 
@@ -261,10 +246,7 @@ Hacktonish，原本是因为记错单词了，不过和hackintosh也挺相似，
 
 </details>
 
-## Improvements
-
-<details>
-<summary>Improvements</summary>
+<b><details><summary>Improvements 系统优化</summary></b>
 
 - [推荐1](http://bbs.pcbeta.com/viewthread-1742550-1-1.html)
 - [推荐2](http://i.pcbeta.com/space-uid-3322572.html)
@@ -334,13 +316,15 @@ iasl *.dsl
 - 重启查看效果
 
 ps:只看教程可能晦涩难懂，我这里保存了远景论坛@daxuexinsheng录制的视频以供参考，感谢他的付出。<br>
-链接:https://pan.baidu.com/s/1dCcpm2  密码:e9bs
 
+链接:https://pan.baidu.com/s/1dCcpm2  密码:e9bs
 
 </details>
 
-## Epilog
+<b><details><summary>Epilog 结语</summary></b>
 
 自己动手，丰衣足食。祝大家心想事成^_^!
+
+</details>
 
 

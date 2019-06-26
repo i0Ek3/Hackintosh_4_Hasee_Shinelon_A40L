@@ -4,24 +4,40 @@
 
 Hacktonish，原本是因为记错单词了，不过和 hackintosh 也挺相似，姑且就不改了，这样也挺好的。文章难免有错，请不吝指出，感谢。
 
+![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/neofetch.jpg)
+
+![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/system.jpg)
+
 &emsp;&emsp;
 
 
 
 <b><details><summary>Changelog 更新日志</summary></b>
 
-- 2019-06-22: 重新定制了 USB，在 10.14.x 下只识别了 A40L 左边的 USB 3.0，即传输速率 5Gb/s，不过好比一个都没有，继续研究。对了，X230 的也重新定制了，还不错呦！突然发现，10.13.x 的时候，用 ssdt-dsdt 定制的都是很完美的，可以养老。
-- 2019-03-04: 由于买了新的显示器，原本的配置文件无法完美支持外接显示器，虽然我做了些改动后可以使用，但还是想着自己弄一个，所以准备 hotpatch 一下，没有日子。
-- 2018-11-20: 更新了 10.14，基于 ym2008 的版本。实在是没有时间折腾，具体的请等待 ym2008 的下一个版本吧！
-- 2018-09-25: 有时间会尝试 10.14，升级或者重装。
-- 2018-08-28: 重新安装了 10.13.6，EFI依旧使用之前提供的，一切 OK，似乎也不用单独安装无线安装包了！后续考虑更换 10.14。
-- 2018-07-27: 蓝牙问题通过绿联 29 元的蓝牙适配器 4.0 解决，好使，具体请看图！
-- 2018-07-23: 目前还稳定使用 10.13.4，之前升级过一次直接挂了，没找到问题，也没有时间继续折腾，所以目前不会更新了，除非炸的太厉害！
-- 2018-06-06: 贴一个在线编辑 config.plist 的网址[http://cloudclovereditor.altervista.org/cce/index.php](http://cloudclovereditor.altervista.org/cce/index.php)，另推荐一篇不错的帖子给新手[http://bbs.pcbeta.com/viewthread-1779539-1-1.html](http://bbs.pcbeta.com/viewthread-1779539-1-1.html)。
-- 2018-05-16: OK，搞定。另推荐 laod 的 ntfs 在 mac 下直接访问的[解决方案](https://laod.cn/free/mac-ntfs.html)。
-- 2018-05-15: 系统实在太卡了，真的受不鸟了，果断重新安装到 SSD 上。
-- 2018-05-09: 系统基本算是配置好了，但有一点是 SSD 的确要比 HHD 快太多了，新配置的黑苹果系统卡顿较之前严重，好在不是太影响使用，毕竟我用空间换时间。
-- 2018-05-05: 刚刚装好黑苹果和 linux 的双系统，接下来分别配置开发环境。安装上问题不大，先将 Linux 正常安装在 128G 的 SSD 上，再正常安装黑苹果到 2T 的 HHD，可实现独立启动双系统，互不影响。安全布局上，会采用[@drduh大神](https://github.com/drduh)的[方案](https://github.com/drduh/macOS-Security-and-Privacy-Guide)，也希望大家重视安全问题。
+ 2019-06-22: 重新定制了 USB，在 10.14.x 下只识别了 A40L 左边的 USB 3.0，即传输速率 5Gb/s，不过好比一个都没有，继续研究。对了，X230 的也重新定制了，还不错呦！突然发现，10.13.x 的时候，用 ssdt-dsdt 定制的都是很完美的，可以养老。
+
+ 2019-03-04: 由于买了新的显示器，原本的配置文件无法完美支持外接显示器，虽然我做了些改动后可以使用，但还是想着自己弄一个，所以准备 hotpatch 一下，没有日子。
+
+ 2018-11-20: 更新了 10.14，基于 ym2008 的版本。实在是没有时间折腾，具体的请等待 ym2008 的下一个版本吧！
+
+ 2018-09-25: 有时间会尝试 10.14，升级或者重装。
+
+ 2018-08-28: 重新安装了 10.13.6，EFI依旧使用之前提供的，一切 OK，似乎也不用单独安装无线安装包了！后续考虑更换 10.14。
+
+ 2018-07-27: 蓝牙问题通过绿联 29 元的蓝牙适配器 4.0 解决，好使，具体请看图！
+
+ 2018-07-23: 目前还稳定使用 10.13.4，之前升级过一次直接挂了，没找到问题，也没有时间继续折腾，所以目前不会更新了，除非炸的太厉害！
+
+ 2018-06-06: 贴一个在线编辑 config.plist 的网址[http://cloudclovereditor.altervista.org/cce/index.php](http://cloudclovereditor.altervista.org/cce/index.php)，另推荐一篇不错的帖子给新手[http://bbs.pcbeta.com/viewthread-1779539-1-1.html](http://bbs.pcbeta.com/viewthread-1779539-1-1.html)。
+
+ 2018-05-16: OK，搞定。另推荐 laod 的 ntfs 在 mac 下直接访问的[解决方案](https://laod.cn/free/mac-ntfs.html)。
+
+ 2018-05-15: 系统实在太卡了，真的受不鸟了，果断重新安装到 SSD 上。
+
+ 2018-05-09: 系统基本算是配置好了，但有一点是 SSD 的确要比 HHD 快太多了，新配置的黑苹果系统卡顿较之前严重，好在不是太影响使用，毕竟我用空间换时间。
+
+ 2018-05-05: 刚刚装好黑苹果和 linux 的双系统，接下来分别配置开发环境。安装上问题不大，先将 Linux 正常安装在 128G 的 SSD 上，再正常安装黑苹果到 2T 的 HHD，可实现独立启动双系统，互不影响。安全布局上，会采用[@drduh大神](https://github.com/drduh)的[方案](https://github.com/drduh/macOS-Security-and-Privacy-Guide)，也希望大家重视安全问题。
+
 
 **ps: 最近剁了一块 2T 的硬盘，故有点冲动想要重新布局系统。并打算全系安全布局，后续看看进展和成果，或许可以更新出来供大家参考。**
 
@@ -67,42 +83,42 @@ Hacktonish，原本是因为记错单词了，不过和 hackintosh 也挺相似�
 
 记录下我目前在 10.14.3 上常用的软件，以免哪天电脑崩了，尸骨全无。尽管每个月都会进行几次备份，但我依然会多做一些措施，这样放心。当然了，其他的一些软件你以可以参考我的[这个链接](https://github.com/i0Ek3/GeekWay/blob/master/App.md)，涵盖很多。但这里主要是我现在的笔记本上常用的，并做一些精简，去除一些功能重复但不怎么使用的软件，只列出名字，其他的自行下载吧。
 
-- iTerm
-- VLC, IINA
-- ThinkerTool
-- MEGASync
-- Reeder
-- Handshaker
-- Flux
-- Spark
-- ShadowsocksX-NG
-- ndm, Cakebrew
-- calibre
-- balenaEtcher
-- FinderGo
-- GPG Keychain
-- Xnip
-- Itsycal
-- linux-command
-- DesktopNaotu
-- eZip, Keka
-- zoom.us
-- Docker
-- CotEditor, Skim
-- Alfred 3, Dash
-- Motrix, Transmission, Proxyee Down
-- Typora, Notion, Bear, Ulysses
-- MacTeX, texstudio, texmaker
-- GitKraken, Github Desktop
-- DBeaver, Redis, rdm, Sequel Pro
-- Xcode, JetBrains, Understand, Sourcetree
-- Atom，Sublime Text，Visual Studio Code
-- Telegram, Whalebird, Slack, Maipo
-- Parallels Desktop, VirtualBox, VMware Fusion
-- OmniGraffle, Sketch, StarUML
-- Microsoft Word, Excel, PowerPoint, OneDrive
-- Vivaldi, Ungoogled-Chromium, LibreFox, Chrom
-- 网易云音乐，迅雷，百度云，人人影视，微信，QQ，钉钉，番茄土豆
+ iTerm
+ VLC, IINA
+ ThinkerTool
+ MEGASync
+ Reeder
+ Handshaker
+ Flux
+ Spark
+ ShadowsocksX-NG
+ ndm, Cakebrew
+ calibre
+ balenaEtcher
+ FinderGo
+ GPG Keychain
+ Xnip
+ Itsycal
+ linux-command
+ DesktopNaotu
+ eZip, Keka
+ zoom.us
+ Docker
+ CotEditor, Skim
+ Alfred 3, Dash
+ Motrix, Transmission, Proxyee Down
+ Typora, Notion, Bear, Ulysses
+ MacTeX, texstudio, texmaker
+ GitKraken, Github Desktop
+ DBeaver, Redis, rdm, Sequel Pro
+ Xcode, JetBrains, Understand, Sourcetree
+ Atom，Sublime Text，Visual Studio Code
+ Telegram, Whalebird, Slack, Maipo
+ Parallels Desktop, VirtualBox, VMware Fusion
+ OmniGraffle, Sketch, StarUML
+ Microsoft Word, Excel, PowerPoint, OneDrive
+ Vivaldi, Ungoogled-Chromium, LibreFox, Chrom
+ 网易云音乐，迅雷，百度云，人人影视，微信，QQ，钉钉，番茄土豆
 
 全部软件可参考下面几幅截图，上面列出来的是我日后必备的，尽量减少 SSD 的存储开销。其他的命令行软件这里没有列出，可以参考我上面的链接。
 
@@ -116,74 +132,74 @@ Hacktonish，原本是因为记错单词了，不过和 hackintosh 也挺相似�
 
 <b><details><summary>macOS Download 系统下载</summary></b>
 
-- [黑果小兵提供](https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/)
+[黑果小兵提供](https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/)
 
 </details>
 
 <b><details><summary>macOS Usage 系统使用</summary></b>
 
-- [官方使用指南](https://help.apple.com/macOS/high-sierra/mac-basics/?lang=zh-cn#/outro)
-- [xclient](http://xclient.info/?_=8854065baa5c04fa30fc193b4a000714)
-- [MAS](https://www.waerfa.com/tag/mas)
-- [mac360](http://mac360.com)
-- [推荐](https://www.waerfa.com/21-small-great-macos-apps)
-- [mac dev deploy](https://github.com/sb2nov/mac-setup)
-- [mactex](http://www.tug.org/mactex/mactex-download.html)
-- [软件推荐](https://www.zhihu.com/question/27158546)
+ [官方使用指南](https://help.apple.com/macOS/high-sierra/mac-basics/?lang=zh-cn#/outro)
+ [xclient](http://xclient.info/?_=8854065baa5c04fa30fc193b4a000714)
+ [MAS](https://www.waerfa.com/tag/mas)
+ [mac360](http://mac360.com)
+ [推荐](https://www.waerfa.com/21-small-great-macos-apps)
+ [mac dev deploy](https://github.com/sb2nov/mac-setup)
+ [mactex](http://www.tug.org/mactex/mactex-download.html)
+ [软件推荐](https://www.zhihu.com/question/27158546)
 
 
 </details>
 
 <b><details><summary>Related Forum 相关论坛</summary></b>
 
-- [远景](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1753483&page=1#pid47417983)
-- [tonymacx86](https://www.tonymacx86.com/)
-- [osx86](https://www.osx86.net)
-- [insanel](http://www.insanelymac.com)
-- [hackintosh zone](https://www.hackintosh.zone)
-- [威锋](https://bbs.feng.com/thread-htm-fid-102.html)
-- [bitbucket](https://bitbucket.org/RehabMan/os-x-fake-pci-id)
-- [itmanbu](https://www.itmanbu.com/appleacpiplatform.html)
-- [daliansky](https://blog.daliansky.net/ "黑果小兵")
-- [黑苹果的折腾时光](https://www.jianshu.com/p/bd57a9324f08)
-- [黑苹果乐园](https://imac.hk/category/course/)
-- [Create macOS installation USB](https://www.tonymacx86.com/threads/how-to-create-a-macos-high-sierra-public-beta-installation-usb.225520/)
-- [猫叔博客](https://www.maoshu.cc)
+ [远景](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1753483&page=1#pid47417983)
+ [tonymacx86](https://www.tonymacx86.com/)
+ [osx86](https://www.osx86.net)
+ [insanel](http://www.insanelymac.com)
+ [hackintosh zone](https://www.hackintosh.zone)
+ [威锋](https://bbs.feng.com/thread-htm-fid-102.html)
+ [bitbucket](https://bitbucket.org/RehabMan/os-x-fake-pci-id)
+ [itmanbu](https://www.itmanbu.com/appleacpiplatform.html)
+ [daliansky](https://blog.daliansky.net/ "黑果小兵")
+ [黑苹果的折腾时光](https://www.jianshu.com/p/bd57a9324f08)
+ [黑苹果乐园](https://imac.hk/category/course/)
+ [Create macOS installation USB](https://www.tonymacx86.com/threads/how-to-create-a-macos-high-sierra-public-beta-installation-usb.225520/)
+ [猫叔博客](https://www.maoshu.cc)
 
 </details>
 
 <b><details><summary>Installation 安装流程</summary></b>
 
-- 前情提要
-    - 15年的时候装过一次黑苹果，遗憾于当时没能坚持，故只进入了苹果系统后便放弃折腾了，从那以后，几乎完全使用Linux了。
-    - 大概是在一周前，看微信公众号的时候，注意到有个安全研究人员用着联想的黑苹果，一下子又勾起了我的欲望。
-    - 自己也是学计算机的，想想折腾个黑苹果也还是有必要的，所以2月6日晚开始折腾。
+ 前情提要
+     15年的时候装过一次黑苹果，遗憾于当时没能坚持，故只进入了苹果系统后便放弃折腾了，从那以后，几乎完全使用Linux了。
+     大概是在一周前，看微信公众号的时候，注意到有个安全研究人员用着联想的黑苹果，一下子又勾起了我的欲望。
+     自己也是学计算机的，想想折腾个黑苹果也还是有必要的，所以2月6日晚开始折腾。
 
 
-- 安装过程
-    - 材料准备
-        - 笔记本（最好是windows系统，方便操作，我使用的是win-to-go），16G U盘
-        - 系统镜像，看清楚你的是原版还是经过修改的，修改的有的会自带四叶草等
-        - 相关软件
-            - Windows
-                - diskgeniu
-                - transmac
-            - macOS 
-                - Clover Configurator
-                - MACiASLzh
+ 安装过程
+     材料准备
+         笔记本（最好是windows系统，方便操作，我使用的是win-to-go），16G U盘
+         系统镜像，看清楚你的是原版还是经过修改的，修改的有的会自带四叶草等
+         相关软件
+             Windows
+                 diskgeniu
+                 transmac
+             macOS 
+                 Clover Configurator
+                 MACiASLzh
 
-    - 具体步骤
-        - [制作启动盘](http://bbs.pcbeta.com/viewthread-1764286-1-5.html)，具体步骤在链接中也很详细，需要注意的是新建分区后，先别急着保存，直接管理员权限运行transmac进行restore即可，否则会出现没有权限之类的错误。
-            - 多启动盘制作
-                - [https://sspai.com/post/419602](https://sspai.com/post/41960)
-                - [http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1769200&extra=page%3D1%26filter%3Dtypeid%26typeid%3D1311%26typeid%3D1311](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1769200&extra=page%3D1%26filter%3Dtypeid%26typeid%3D1311%26typeid%3D1311)
-        - 开机重启，设置相应的bios模式，我这里是四叶草gpt安装，我的电脑需要设置为dual boot模式。此时会进入代码刷屏界面，根据不同的错误进行爬贴排错（这里的排错可以是更换相应的参数，config.plist配置文件）。如果直接进入苹果的界面，那么恭喜你可以进行下一步安装了。
-        - 初始安装,进入系统后使用磁盘工具进行抹盘操作，*注意备份数据*。由于我的笔记本上的硬盘只剩一块128G的SSD了，故我将64G的U盘当作系统盘抹掉了，也就说，我的系统在U盘里，没什么大的问题，就是安装速度会很慢。期间会进行多次重启，耐心等待即可。
-        - 系统安装，这一步的安装是基于上一步的，这里需要你设置相应的偏好，调整即可，问题不大，不出意外，不一会儿你便可以正式进入苹果系统了。系统的成熟度和流畅度依赖于你的电脑及你的配置文件，有的可能遇到花屏、卡顿等现象，不要着急，也不用担心，慢慢调整驱动，利用注入、hotpatch等进行调整优化和完善，慢慢的你会得到一个可以日常使用的、流畅的系统的。
-        - 脱离U盘启动系统，在macOS下直接挂载系统盘和u盘相应的EFI分区（或者通过clover configurator操作更简单），将u盘EFI文件夹复制到系统盘中即可，这样的好处在于可以让你升级黑苹果的系统少折腾一些。
-        - 快速启动，在苹果系统下运行clover configurator,挂载efi分区并加载config.plist配置文件，在clover configurator左边的boot项下选择default boot value，填写你想要直接进入的系统的名字，timeout设为0，保存覆盖重启即可。
+     具体步骤
+         [制作启动盘](http://bbs.pcbeta.com/viewthread-1764286-1-5.html)，具体步骤在链接中也很详细，需要注意的是新建分区后，先别急着保存，直接管理员权限运行transmac进行restore即可，否则会出现没有权限之类的错误。
+             多启动盘制作
+                 [https://sspai.com/post/419602](https://sspai.com/post/41960)
+                 [http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1769200&extra=page%3D1%26filter%3Dtypeid%26typeid%3D1311%26typeid%3D1311](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1769200&extra=page%3D1%26filter%3Dtypeid%26typeid%3D1311%26typeid%3D1311)
+         开机重启，设置相应的bios模式，我这里是四叶草gpt安装，我的电脑需要设置为dual boot模式。此时会进入代码刷屏界面，根据不同的错误进行爬贴排错（这里的排错可以是更换相应的参数，config.plist配置文件）。如果直接进入苹果的界面，那么恭喜你可以进行下一步安装了。
+         初始安装,进入系统后使用磁盘工具进行抹盘操作，*注意备份数据*。由于我的笔记本上的硬盘只剩一块128G的SSD了，故我将64G的U盘当作系统盘抹掉了，也就说，我的系统在U盘里，没什么大的问题，就是安装速度会很慢。期间会进行多次重启，耐心等待即可。
+         系统安装，这一步的安装是基于上一步的，这里需要你设置相应的偏好，调整即可，问题不大，不出意外，不一会儿你便可以正式进入苹果系统了。系统的成熟度和流畅度依赖于你的电脑及你的配置文件，有的可能遇到花屏、卡顿等现象，不要着急，也不用担心，慢慢调整驱动，利用注入、hotpatch等进行调整优化和完善，慢慢的你会得到一个可以日常使用的、流畅的系统的。
+         脱离U盘启动系统，在macOS下直接挂载系统盘和u盘相应的EFI分区（或者通过clover configurator操作更简单），将u盘EFI文件夹复制到系统盘中即可，这样的好处在于可以让你升级黑苹果的系统少折腾一些。
+         快速启动，在苹果系统下运行clover configurator,挂载efi分区并加载config.plist配置文件，在clover configurator左边的boot项下选择default boot value，填写你想要直接进入的系统的名字，timeout设为0，保存覆盖重启即可。
 
-- 系统图赏
+ 系统图赏
 
 ![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/newScreen.jpg)
 ![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/multiDisplay.jepg)
@@ -207,50 +223,50 @@ Hacktonish，原本是因为记错单词了，不过和 hackintosh 也挺相似�
 ![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/USB-2.jpg)
 
 
-- 鸣谢
-    - [13956737563](http://i.pcbeta.com/space-uid-4725659.html) 这位网友给了我很大的帮助，帮我指导了很多，非常非常感谢。
-    - [谷谷科技](http://i.pcbeta.com/space-uid-4642498.html) 因为安装过程中直接使用了@谷谷科技提供的EFI文件，故也谈不上什么探索，更大的功劳归属于ta。
-    - [黑果小兵](https://daliansky.github.io) 安装过程是参考@黑果小兵的博客记录进行的，也学习了很多其他的知识,感谢提供优质博客。博客中说博主69年生，那这样看来的话，真的是太厉害了！
-    - [1296283984](http://bbs.pcbeta.com/viewthread-1764286-1-5.html) U盘启动盘是按照这位楼主的帖子进行的，不过制作的时候好像有些出入，新建分区后如果保存了，下一步将无法进行，故新建分区后直接Restore dmg即可。
-    - 广大远景论坛的网友
+ 鸣谢
+     [13956737563](http://i.pcbeta.com/space-uid-4725659.html) 这位网友给了我很大的帮助，帮我指导了很多，非常非常感谢。
+     [谷谷科技](http://i.pcbeta.com/space-uid-4642498.html) 因为安装过程中直接使用了@谷谷科技提供的EFI文件，故也谈不上什么探索，更大的功劳归属于ta。
+     [黑果小兵](https://daliansky.github.io) 安装过程是参考@黑果小兵的博客记录进行的，也学习了很多其他的知识,感谢提供优质博客。博客中说博主69年生，那这样看来的话，真的是太厉害了！
+     [1296283984](http://bbs.pcbeta.com/viewthread-1764286-1-5.html) U盘启动盘是按照这位楼主的帖子进行的，不过制作的时候好像有些出入，新建分区后如果保存了，下一步将无法进行，故新建分区后直接Restore dmg即可。
+     广大远景论坛的网友
 
 
-- 后记
-    - 继续完善和优化系统
-    - 由于直接使用了网友的EFI，故接下来需要自己研究一番
-    - 配置Mac开发环境，软件，日常使用
-        - iterm2
-        - zsh
-        - vimplus
-        - tmux
-    - 另，系统是装在U盘里的，故接下来会迁移系统到ssd上
+ 后记
+     继续完善和优化系统
+     由于直接使用了网友的EFI，故接下来需要自己研究一番
+     配置Mac开发环境，软件，日常使用
+         iterm2
+         zsh
+         vimplus
+         tmux
+     另，系统是装在U盘里的，故接下来会迁移系统到ssd上
 
 
-- 下载提供
-    - [baiduPCS_Go](https://github.com/iikira/BaiduPCS-Go/releases) 下载速度很快的命令行版本的百度云，我用来下载dmg镜像文件
-    - macOS dmg 链接:https://pan.baidu.com/s/1eSToGuQ  密码:fqz5
-    - 制作U盘启动所需材料 链接:https://pan.baidu.com/s/1dGJx8pr  密码:vvl8
+ 下载提供
+     [baiduPCS_Go](https://github.com/iikira/BaiduPCS-Go/releases) 下载速度很快的命令行版本的百度云，我用来下载dmg镜像文件
+     macOS dmg 链接:https://pan.baidu.com/s/1eSToGuQ  密码:fqz5
+     制作U盘启动所需材料 链接:https://pan.baidu.com/s/1dGJx8pr  密码:vvl8
 
 </details>
 
 <b><details><summary>Improvements 系统优化</summary></b>
 
-- [推荐1](http://bbs.pcbeta.com/viewthread-1742550-1-1.html)
-- [推荐2](http://i.pcbeta.com/space-uid-3322572.html)
-- [推荐3](https://www.jianshu.com/p/bd57a9324f08)
-- [仿冒声卡驱动](http://bbs.pcbeta.com/viewthread-1387094-1-1.html "用于解决睡眠无声问题")
-- [hotpatch](https://blog.daliansky.net/hotpatch-detailed-solution.html)
-- [DSDT/SSDT补丁](http://blog.csdn.net/wr132/article/details/54798754)
-- [DSDT/SSDT综合教程](http://blog.csdn.net/wangmj518/article/details/50748681)
-- [电池补丁制作](http://bbs.pcbeta.com/viewthread-1521462-1-1.html) 
-- [提取DSDT/SSDT](http://bbs.pcbeta.com/viewthread-1571455-1-1.html)
-- [联合编译](http://bbs.pcbeta.com/viewthread-1475332-1-1.html)
-- [clover configurator使用](http://bbs.tpway.com/thread-5935-1-1.html)
-- [亮度修复](https://imac.hk/adjust-the-screen-brightness.html)
-- [ubunu下提取DSDT/SSDT](https://imac.hk/ubuntu-dsdt-ssdt-audio-id.html)
-- [内建SD读卡器](https://imac.hk/hackintosh-built-sd-reader.html) 
-- [神舟系列驱动](http://bbs.pcbeta.com/viewthread-1761222-1-1.html)
-- [rehanman's guide for dsdt/ssdt fetch and build](https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/)
+ [推荐1](http://bbs.pcbeta.com/viewthread-1742550-1-1.html)
+ [推荐2](http://i.pcbeta.com/space-uid-3322572.html)
+ [推荐3](https://www.jianshu.com/p/bd57a9324f08)
+ [仿冒声卡驱动](http://bbs.pcbeta.com/viewthread-1387094-1-1.html "用于解决睡眠无声问题")
+ [hotpatch](https://blog.daliansky.net/hotpatch-detailed-solution.html)
+ [DSDT/SSDT补丁](http://blog.csdn.net/wr132/article/details/54798754)
+ [DSDT/SSDT综合教程](http://blog.csdn.net/wangmj518/article/details/50748681)
+ [电池补丁制作](http://bbs.pcbeta.com/viewthread-1521462-1-1.html) 
+ [提取DSDT/SSDT](http://bbs.pcbeta.com/viewthread-1571455-1-1.html)
+ [联合编译](http://bbs.pcbeta.com/viewthread-1475332-1-1.html)
+ [clover configurator使用](http://bbs.tpway.com/thread-5935-1-1.html)
+ [亮度修复](https://imac.hk/adjust-the-screen-brightness.html)
+ [ubunu下提取DSDT/SSDT](https://imac.hk/ubuntu-dsdt-ssdt-audio-id.html)
+ [内建SD读卡器](https://imac.hk/hackintosh-built-sd-reader.html) 
+ [神舟系列驱动](http://bbs.pcbeta.com/viewthread-1761222-1-1.html)
+ [rehanman's guide for dsdt/ssdt fetch and build](https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/)
 
 
 ### Linux下提取ssdt/dsdt及声卡信息

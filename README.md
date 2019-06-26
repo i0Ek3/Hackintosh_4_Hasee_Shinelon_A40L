@@ -1,24 +1,11 @@
 # Hacktonish for Hasse Shinelon A40L-i5/i7
 
+<div align="center">
+
 Hacktonish，原本是因为记错单词了，不过和 hackintosh 也挺相似，姑且就不改了，这样也挺好的。文章难免有错，请不吝指出，感谢。
 
-<div align="center">
-Content
 &emsp;&emsp;
 
-* [Changelog 更新日志](#changelog-更新日志)
-* [Usage 使用方法](#usage-使用方法)
-* [Attention 注意事项](#attention-注意事项)
-* [Status 当前状态](#status-当前状态)
-* [Software 软件推荐](#software-软件推荐)
-* [macOS Download 系统下载](#macos-download-系统下载)
-* [macOS Usage 系统使用](#macos-usage-系统使用)
-* [Related Forum 相关论坛](#related-forum-相关论坛)
-* [Installation 安装流程](#installation-安装流程)
-* [Improvements 系统优化](#improvements-系统优化)
-* [Epilog 结语](#epilog-结语)
-
-</div>
 
 
 <b><details><summary>Changelog 更新日志</summary></b>
@@ -328,3 +315,4 @@ ps:只看教程可能晦涩难懂，我这里保存了远景论坛@daxuexinsheng
 </details>
 
 
+</div>

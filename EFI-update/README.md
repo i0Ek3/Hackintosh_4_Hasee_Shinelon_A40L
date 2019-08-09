@@ -2,21 +2,28 @@
 
 > 好吧，还是记录点什么吧，每次想要重新整的时候都得从头开始，是有点浪费时间。就简单记录下目前的 EFI 配置情况吧！
 
+
+<details>
+<b><summary> Hotpatch</summary></b>
+
 EFI 主要还是 hotpatch 和 驱动，这里主要说下我知道的 hotpatch 吧，慢慢更新。
 
-### hotpatch 的一些选项
-
 - -wegnoegpu 选项可以用来禁用独立显卡
+- ar9485 选项在添加相关驱动后可确保原生 wifi 可用
 - USB 的定制可以通过在 hacktool 下拔插 2.0 和 3.0 的优盘来实现，然后导出 .aml 文件放入 patched 文件夹里即可，记得先在 config.list 文件中取消 USB 端口禁用，重启后再开始定制，定制完成后打开端口禁用，重启验证即可
 
-
-
-
-
+</details>
 
 
 <details>
-<summary>Changelog</summary>
+<b><summary> Changelog </summary></b>
+
+## 2019-08-09
+
+- 在 [1zilc](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) 的 EFI 基础上做了修改，合并了 10.14.x，原本的 EFI 似乎无法识别千兆网卡，导致速度很慢，修改后的可正常使用
+- [1zilc](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) 的 EFI 几乎很完美了，推荐大家可以先用他的 EFI，和炫龙 A40L 是通用的
+- 由于我面临找工作毕业的问题，所以暂时可能不会继续折腾黑苹果了，等有时间卷土再来
+
 
 ## 2019-06-22
 
@@ -80,11 +87,12 @@ EFI 主要还是 hotpatch 和 驱动，这里主要说下我知道的 hotpatch �
 
 </details>
 
-# Trouble
+<details>
+<b><summary> Troubles </summary></b>
 
 - 独显不可用
 - 蓝牙需购买 USB 蓝牙接收器或者更换网卡，可解决无线和蓝牙的问题
 - 或者无线手动安装一下可以解决，没啥大问题，就是麻烦点
 - You tell me......
 
-
+</details>

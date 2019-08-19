@@ -1,5 +1,14 @@
 # 更新日志
 
+## 2019-08-19
+
+- 最新的 EFI 为 EFI-10.14.6
+- 由于对系统进行了修改，导致 08-09 的更新在我这边无法启动，遂重新进行了优化
+- 更新和删除了一些驱动，主要是为了解决有线网卡速率低的问题（原本只有10Mbps），通过更新最新的 RTL8111.kext 解决（200兆光纤的速率尽显无疑），见下图
+- 还是基于 [1zilc](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) 的最新 EFI 进行修改优化，膜拜大神
+
+![speed](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/speed.png)
+
 
 ## 2019-08-09
 

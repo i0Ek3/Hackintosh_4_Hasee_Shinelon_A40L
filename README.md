@@ -32,6 +32,8 @@
 
 <b><details><summary>Changelog 更新日志</summary></b>
 
+ 2019-08-19：在 [1zilc](https://github.com/1zilc) 的基础上做了修改，解决了有线速率低的问题，目前也比较完美，暂无其他问题，目前就不打算继续折腾黑果了，实在是太浪费时间了，等我找到工作后再来玩，后会有期。
+
  2019-06-22: 重新定制了 USB，在 10.14.x 下只识别了 A40L 左边的 USB 3.0，即传输速率 5Gb/s，不过好比一个都没有，继续研究。对了，X230 的也重新定制了，还不错呦！突然发现，10.13.x 的时候，用 ssdt-dsdt 定制的都是很完美的，可以养老。
 
  2019-03-04: 由于买了新的显示器，原本的配置文件无法完美支持外接显示器，虽然我做了些改动后可以使用，但还是想着自己弄一个，所以准备 hotpatch 一下，没有日子。
@@ -369,7 +371,7 @@ ps:只看教程可能晦涩难懂，我这里保存了远景论坛@daxuexinsheng
 
 </details>
 
-<b><details><summary>Credit 鸣谢</dummary></b>
+<b><details><summary>Credit 鸣谢</summary></b>
 
 [黑果小兵](https://daliansky.github.io) 安装过程是参考黑果小兵的博客记录进行的，也学习了很多其他的知识,感谢提供优质博客。博客中说博主69年生，那这样看来的话，真的是太厉害了!
 
@@ -384,6 +386,7 @@ ps:只看教程可能晦涩难懂，我这里保存了远景论坛@daxuexinsheng
 广大远景论坛的网友
 
 </details>
+
 
 <b><details><summary>Epilog 结语</summary></b>
 

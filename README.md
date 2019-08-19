@@ -1,16 +1,34 @@
 # macOS on Shinelon A40L-i5/i7 炫龙 A40L-i5/i7 黑苹果
 
-<div align="center">
+> Hacktonish，原本是因为记错单词了，不过和 hackintosh 也挺相似，姑且就不改了，这样也挺好的。文章难免有错，请不吝指出，感谢。
 
-Hacktonish，原本是因为记错单词了，不过和 hackintosh 也挺相似，姑且就不改了，这样也挺好的。文章难免有错，请不吝指出，感谢。
+> 生命诚可贵，请少折腾黑果，把精力放在重要的事情上，真的！
+
+
+## 配置
+
+|  设备名  |                        具体型号                        |
+| :------: | :----------------------------------------------------: |
+|   型号   |                       炫龙 A40L系列                    |
+|   CPU    |  Intel Core i5-4210MQ @ 2.59 GHz/i7-4710MQ @ 2.49 GHz  |
+|   主板   |                        Intel HM86                      |
+|   内存   |               酷兽 8 GB 1600 MHz DDR3 x 2              |
+|   硬盘   |日昱HGST721010A9E630 HHD 1T x 2 + 三星SSD 860EVO 500 GB |
+|   显卡   |      Intel HD Graphics 4600 + NVIDIA GeForce 840M      |  
+|   声卡   |                          ALC282                        |
+| 有线网卡 |   瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller   |
+| 无线网卡 |                          AR9485                        |
+
 
 ![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/neofetch.jpg)
 
 ![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/system.jpg)
 
+
+
+<div align="center">
+
 &emsp;&emsp;
-
-
 
 <b><details><summary>Changelog 更新日志</summary></b>
 
@@ -239,19 +257,6 @@ MACiASLzh<br>
 ![](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/pic/USB-2.jpg)
 
 
-#### 鸣谢
-
-[13956737563](http://i.pcbeta.com/space-uid-4725659.html) 这位网友给了我很大的帮助，帮我指导了很多，非常非常感谢。<br>
-
-[谷谷科技](http://i.pcbeta.com/space-uid-4642498.html) 因为安装过程中直接使用了@谷谷科技提供的EFI文件，故也谈不上什么探索，更大的功劳归属于ta。<br>
-
-[黑果小兵](https://daliansky.github.io) 安装过程是参考@黑果小兵的博客记录进行的，也学习了很多其他的知识,感谢提供优质博客。博客中说博主69年生，那这样看来的话，真的是太厉害了！<br>
-
-[1296283984](http://bbs.pcbeta.com/viewthread-1764286-1-5.html) U盘启动盘是按照这位楼主的帖子进行的，不过制作的时候好像有些出入，新建分区后如果保存了，下一步将无法进行，故新建分区后直接Restore dmg即可。<br>
-
-广大远景论坛的网友<br>
-
-
 #### 后记
 
 继续完善和优化系统<br>
@@ -364,9 +369,25 @@ ps:只看教程可能晦涩难懂，我这里保存了远景论坛@daxuexinsheng
 
 </details>
 
+<b><details><summary>Credit 鸣谢</dummary></b>
+
+[黑果小兵](https://daliansky.github.io) 安装过程是参考黑果小兵的博客记录进行的，也学习了很多其他的知识,感谢提供优质博客。博客中说博主69年生，那这样看来的话，真的是太厉害了!
+
+[@ym2008](http://bbs.pcbeta.com/viewthread-1795746-1-1.html)
+
+[@aryuan](http://bbs.pcbeta.com/viewthread-1795353-1-1.html)
+
+[@1zilc](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover)
+
+[13956737563](http://i.pcbeta.com/space-uid-4725659.html) 这位网友给了我很大的帮助，帮我指导了很多，非常非常感谢。
+
+广大远景论坛的网友
+
+</details>
+
 <b><details><summary>Epilog 结语</summary></b>
 
-自己动手，丰衣足食。祝大家心想事成^_^!
+自己动手，丰衣足食。祝大家心想事成^\_^!
 
 </details>
 

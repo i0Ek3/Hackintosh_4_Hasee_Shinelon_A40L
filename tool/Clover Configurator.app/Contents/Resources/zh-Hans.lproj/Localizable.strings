@@ -1,227 +1,0 @@
-{
-    "\n\nAre you sure you want to continue? You will lose your data on the target partition if you continue!" = "\n\n\U4f60\U786e\U5b9a\U4f60\U8981\U7ee7\U7eed\U5417\Uff1f \U5982\U679c\U7ee7\U7eed\Uff0c\U60a8\U5c06\U4e22\U5931\U76ee\U6807\U5206\U533a\U4e0a\U7684\U6570\U636e!";
-    "\n\nChecking was aborted because the process has taken too long." = "\n\n\U68c0\U67e5\U5df2\U4e2d\U6b62\Uff0c\U56e0\U4e3a\U6b64\U8fc7\U7a0b\U8017\U65f6\U592a\U957f\U3002";
-    "\n\nError: The source and target volumes are different sizes. Some files won't be copied." = "\n\n\U9519\U8bef\Uff1a\U6e90\U5377\U548c\U76ee\U6807\U5377\U7684\U5927\U5c0f\U4e0d\U540c\U3002\U67d0\U4e9b\U6587\U4ef6\U4e0d\U4f1a\U88ab\U590d\U5236\U3002";
-    "\n\nProcess is taking longer than usual. Do you want to continue?" = "\n\n\U5904\U7406\U82b1\U8d39\U7684\U65f6\U95f4\U6bd4\U5e73\U65f6\U957f\U3002\U4f60\U60f3\U7ee7\U7eed\U5417\Uff1f";
-    " CLOVERX64.efi successfully copied to %@" = "CLOVERX64.efi\U5df2\U6210\U529f\U590d\U5236\U5230%@";
-    " CLOVERX64.efi successfully copied to %@. Old file has been renamed to CLOVERX64_%@.efi.bak" = "CLOVERX64.efi\U5df2\U6210\U529f\U590d\U5236\U5230 %1$@. \U65e7\U6587\U4ef6\U5df2\U91cd\U547d\U540d\U4e3aCLOVERX64_%2$@.efi.bak";
-    " Downloaded!" = "\U5df2\U4e0b\U8f7d!";
-    " Downloaded! Launch the installer!" = "\U5df2\U4e0b\U8f7d\Uff01 \U542f\U52a8\U5b89\U88c5\U7a0b\U5e8f\Uff01";
-    " Error during unzipping file!" = "\U89e3\U538b\U7f29\U6587\U4ef6\U65f6\U51fa\U9519\Uff01";
-    " Error: %@" = "\U9519\U8bef: %@";
-    " New stable version available." = "\U63d0\U4f9b\U65b0\U7684\U7a33\U5b9a\U7248\U672c\U3002";
-    " Ready to install stable version!" = "\U51c6\U5907\U5b89\U88c5\U7a33\U5b9a\U7248\Uff01";
-    " Ready..... Connection established" = "\U51c6\U5907.....\U5efa\U7acb\U8fde\U63a5";
-    " The Internet connection appears to be offline....." = "Internet\U8fde\U63a5\U4f3c\U4e4e\U5904\U4e8e\U8131\U673a\U72b6\U6001.....";
-    " Unzipped! Launch the installer!" = "\U89e3\U538b\U6210\U529f\Uff01 \U542f\U52a8\U5b89\U88c5\U7a0b\U5e8f\Uff01";
-    " Your clover revision is up to date! Do you want download?" = "\U60a8\U7684Clover\U4fee\U8ba2\U7248\U662f\U6700\U65b0\U7684\Uff01 \U4f60\U60f3\U4e0b\U8f7d\U5417\Uff1f";
-    "%@ %s set to nvram\n" = "%1$@ %2$s \U8bbe\U7f6e\U5230nvram\n";
-    "%@ APFS Container [%@]" = "%1$@ APFS\U5bb9\U5668 [%2$@]";
-    "%@ Error trying to set nvram %s\n" = "%1$@ \U5c1d\U8bd5\U8bbe\U7f6e \U51fa\U9519nvram %2$s\n";
-    "%lu partitions" = "%lu \U4e2a\U5206\U533a";
-    "*** FOR LEGACY USERS ***" = "*** \U5bf9\U4e8e\U4f20\U7edf\U7528\U6237 ***";
-    "*** FOR LEGACY USERS ***\nThis app isn't able to write a boot sector, so you need to manually run Clover Installer following these easy steps:\n\n1. Run Clover Installer and select target partition\n2. Install Clover in the ESP\n3. Select boot0af MBR on Bootloader section\n4. Select CloverEFI 64-bit SATA on CloverEFI section\n5. You can also select RC Scripts or Preferences Panel if you need\n\nOther files are useless because Clover Cloner removes data on the target volume." = "*** \U5bf9\U4e8e\U4f20\U7edf\U7528\U6237 ***\n\U6b64\U5e94\U7528\U7a0b\U5e8f\U65e0\U6cd5\U7f16\U5199\U5f15\U5bfc\U6247\U533a\Uff0c\U56e0\U6b64\U60a8\U9700\U8981\U6309\U7167\U4ee5\U4e0b\U7b80\U5355\U6b65\U9aa4\U624b\U52a8\U8fd0\U884cClover\U5b89\U88c5\U5668:\n\n1.\U8fd0\U884cClover Installer\U5e76\U9009\U62e9\U76ee\U6807\U5206\U533a\n2. I\U5728ESP\U4e2d\U5b89\U88c5Clover\n3.  \U5728Bootloader\U90e8\U5206\U9009\U62e9boot0af MBR\n4. \U5728CloverEFI \U90e8\U5206\U9009\U62e9CloverEFI 64-bit SATA\n5.\U5982\U679c\U9700\U8981\Uff0c\U60a8\U8fd8\U53ef\U4ee5\U9009\U62e9RC\U811a\U672c\U6216\U9996\U9009\U9879\U9762\U677f\n\n\U5176\U4ed6\U6587\U4ef6\U65e0\U7528\Uff0c\U56e0\U4e3aClover Cloner\U4f1a\U5220\U9664\U76ee\U6807\U5377\U4e0a\U7684\U6570\U636e\U3002";
-    "*** WARNING ***" = "*** \U8b66\U544a ***";
-    "*** WARNING ***\nIf you want clone to an EFI partition, you better make sure that it's mounted before. The target partition must have enough space to hold all the data from the source partition. All data stored on the target volume will be overwritten during clone operations and cannot be restored.\n\n" = "*** \U8b66\U544a ***\n\U5982\U679c\U60a8\U60f3\U8981\U514b\U9686\U5230EFI\U5206\U533a\Uff0c\U6700\U597d\U786e\U4fdd\U5b83\U4e4b\U524d\U5df2\U5b89\U88c5\U3002 \U76ee\U6807\U5206\U533a\U5fc5\U987b\U6709\U8db3\U591f\U7684\U7a7a\U95f4\U6765\U5bb9\U7eb3\U6e90\U5206\U533a\U4e2d\U7684\U6240\U6709\U6570\U636e\U3002 \U5b58\U50a8\U5728\U76ee\U6807\U5377\U4e0a\U7684\U6240\U6709\U6570\U636e\U5c06\U5728\U514b\U9686\U64cd\U4f5c\U671f\U95f4\U88ab\U8986\U76d6\Uff0c\U65e0\U6cd5\U6062\U590d\U3002\n\n";
-    Acpi = "ACPI\U8bbe\U7f6e-Acpi";
-    "Are you sure you want to continue? You will lose your data on the target partition if you continue!" = "Are you sure you want to continue? You will lose your data on the target partition if you continue!";
-    "B/s" = "B/s";
-    "Backup Configurations" = "\U5907\U4efd\U914d\U7f6e";
-    "Bad configuration in Drop Tables - ACPI section" = "Drop Tables\U4e2d\U7684\U9519\U8bef\U914d\U7f6e -  ACPI\U90e8\U5206";
-    "Board-ID: %@" = "Board-ID: %@";
-    "Board-ID: N/A" = "Board-ID: N/A";
-    Boot = "\U5f15\U5bfc\U53c2\U6570-Boot";
-    "Boot Graphics" = "\U542f\U52a8\U80cc\U666f-Boot Graphics";
-    "Boot.log" = "\U5f15\U5bfc\U65e5\U5fd7-Boot.log";
-    "Capacity In Use:" = "\U4f7f\U7528\U5bb9\U91cf\Uff1a";
-    "Check Now" = "\U7acb\U5373\U68c0\U6d4b";
-    "Check Partition" = "\U68c0\U6d4b\U5206\U533a";
-    Checking = "\U68c0\U6d4b\U4e2d";
-    "Checking was aborted because the process has taken too long." = "\U68c0\U67e5\U5df2\U4e2d\U6b62\Uff0c\U56e0\U4e3a\U6b64\U8fc7\U7a0b\U8017\U65f6\U592a\U957f\U3002";
-    "Checking..." = "\U68c0\U6d4b\U4e2d...";
-    Clone = "\U514b\U9686";
-    "Cloning..." = "\U514b\U9686\U4e2d...";
-    "Clover Bootloader" = "Clover \U5f15\U5bfc\U5668\U9879\U76ee";
-    "Clover Changes" = "Clover \U53d8\U5316";
-    "Clover Cloner" = "Clover \U514b\U9686\U5668";
-    "Clover Configurator - How To Use" = "Clover \U914d\U7f6e\U5668 - \U5982\U4f55\U4f7f\U7528";
-    "Clover Configurator could not be synchronized because an error occurred: %@" = "\U7531\U4e8e\U53d1\U751f\U9519\U8bef\Uff0c\U65e0\U6cd5\U540c\U6b65Clover\U914d\U7f6e\U7a0b\U5e8f: %@";
-    "Clover Configurator has %@" = "Clover Configurator\U6709 %@";
-    "Clover Configurator was unable read because it isn\U2019t in the correct format.\n\nPlease fix the following code before saving: %@" = "Clover Configurator\U65e0\U6cd5\U8bfb\U53d6\Uff0c\U56e0\U4e3a\U683c\U5f0f\U4e0d\U6b63\U786e\U3002\n\n\U8bf7\U5728\U4fdd\U5b58\U4e4b\U524d\U4fee\U590d\U4ee5\U4e0b\U4ee3\U7801\Uff1a %@";
-    "Clover Forum" = "Clover \U8bba\U575b";
-    "Clover Instructions" = "Clover \U8bf4\U660e";
-    "Clover Wiki" = "Clover Wiki";
-    "Clover folder not found." = "\U627e\U4e0d\U5230Clover\U6587\U4ef6\U5939\U3002";
-    "Config Templates" = "\U673a\U578b\U6a21\U677f(\U5f00\U53d1\U4e2d)";
-    "Configurations Acquired" = "\U83b7\U53d6\U914d\U7f6e";
-    Copy = "\U590d\U5236";
-    "Could not decode string: %@" = "\U4e0d\U80fd\U89e3\U7801\U5b57\U7b26: %@";
-    Cpu = "CPU\U8bbe\U7f6e-Cpu";
-    "CustomEntries Editor" = "\U81ea\U5b9a\U4e49\U6761\U76ee\U7f16\U8f91\U5668";
-    Cut = "\U526a\U5207";
-    "Data failed decoding as a UTF-8 string" = "\U6570\U636e\U65e0\U6cd5\U89e3\U7801\U4e3aUTF-8\U5b57\U7b26\U4e32";
-    Day = "\U5929";
-    Days = "\U5929";
-    "Delete: %@ successfully removed" = "\U5220\U9664: %@ \U5df2\U6210\U529f\U5220\U9664";
-    "Delete: %@.efi successfully removed" = "\U5220\U9664: %@.efi \U5df2\U6210\U529f\U5220\U9664";
-    "Device / Media Name: %@" = "\U8bbe\U5907 / \U5a92\U4f53\U540d\U79f0: %@";
-    "Device BSD Name:" = "\U8bbe\U5907BSD\U540d\U79f0:";
-    "Device BSD Name: %@" = "\U8bbe\U5907BSD\U540d\U79f0: %@";
-    "Device BSD Name: N/A" = "\U8bbe\U5907BSD\U540d\U79f0:N/A";
-    "Device Identifier: %@" = "\U6807\U8bc6\U7b26: %@";
-    "Device Identifier: %@ - APFS Physical Store Disk: %@ - UUID: %@ - Size: %@" = "\U8bbe\U5907\U6807\U8bc6\U7b26: %1$@ - APFS\U7269\U7406\U5b58\U50a8\U78c1\U76d8: %2$@ - UUID: %3$@ - \U5bb9\U91cf: %4$@";
-    "Device Identifier: %@ - Partition Scheme: %@ - Size: %@" = "\U8bbe\U5907\U6807\U8bc6\U7b26: %1$@ - \U5206\U533a\U65b9\U6848: %2$@ - \U5bb9\U91cf: %3$@";
-    Devices = "\U8bbe\U5907\U8bbe\U7f6e-Devices";
-    "Devices / Media Name:" = "\U8bbe\U5907 / \U5a92\U4f53\U540d\U79f0:";
-    "Devices / Media Name: %@" = "\U8bbe\U5907 / \U5a92\U4f53\U540d\U79f0: %@";
-    "Disable Drivers" = "\U7981\U7528\U9a71\U52a8-Disable Drivers";
-    "Disk Identifier:" = "\U78c1\U76d8\U6807\U8bc6\U7b26:";
-    "Disk Identifier: %@ Status: [Current Boot Disk]" = "\U78c1\U76d8\U6807\U8bc6\U7b26: %@ \U72b6\U6001: [\U5f53\U524d\U5f15\U5bfc\U78c1\U76d8]";
-    "Disk Type:" = "\U78c1\U76d8\U7c7b\U578b:";
-    "Disk Type: %@" = "\U78c1\U76d8\U7c7b\U578b: %@";
-    "Disk Type: APFS Container" = "\U78c1\U76d8\U7c7b\U578b:APFS\U5bb9\U5668";
-    "Disk Type: APFS Volume" = "\U78c1\U76d8\U7c7b\U578b:: APFS\U5377";
-    "Disk Type: Apple HFS+" = "\U78c1\U76d8\U7c7b\U578b:: Apple HFS+";
-    "Disk Type: N/A" = "\U78c1\U76d8\U7c7b\U578b:: N/A";
-    "Disk Type: SoftRAID Cache" = "\U78c1\U76d8\U7c7b\U578b:: SoftRAID Cache";
-    "Disk Type: SoftRAID Scratch" = "\U78c1\U76d8\U7c7b\U578b: SoftRAID Scratch";
-    "Disk Type: SoftRAID Status" = "\U78c1\U76d8\U7c7b\U578b:SoftRAID Status";
-    "Disk Type: SoftRAID Volume" = "\U78c1\U76d8\U7c7b\U578b: SoftRAID Volume";
-    "Disk UUID:" = "\U78c1\U76d8UUID:";
-    "Disk UUID: %@" = "\U78c1\U76d8UUID:%@";
-    "Disk UUID: N/A" = "\U78c1\U76d8UUID:N/A";
-    Download = "\U4e0b\U8f7d";
-    "Download: %@ has been successfully copied to %@" = "\U4e0b\U8f7d: %1$@ \U5df2\U6210\U529f\U590d\U5236\U5230 %2$@";
-    "Download: %@ has been successfully updated to %@" = "\U4e0b\U8f7d: %1$@ \U5df2\U6210\U529f\U66f4\U65b0\U81f3%2$@";
-    "Download: %@ successfully backed up to %@" = "\U4e0b\U8f7d: %1$@ \U6210\U529f\U5907\U4efd\U5230 %2$@";
-    "Download: %@ successfully downloaded...." = "\U4e0b\U8f7d: %@\U6210\U529f\U4e0b\U8f7d....";
-    "Download: ERROR: %@" = "\U4e0b\U8f7d: \U9519\U8bef: %@";
-    "Download: ERROR: You don't have permission to write here!" = "\U4e0b\U8f7d: \U9519\U8bef: \U4f60\U6ca1\U6709\U5728\U8fd9\U91cc\U5199\U7684\U6743\U9650!";
-    "Download: Error: %@" = "\U4e0b\U8f7d: \U9519\U8bef: %@";
-    "Download: Path doesn't exist!" = "\U4e0b\U8f7d:\U8def\U5f84\U4e0d\U5b58\U5728!";
-    "Download: Please select a driver name!" = "\U4e0b\U8f7d\Uff1a\U8bf7\U9009\U62e9\U4e00\U4e2a\U9a71\U52a8\U7a0b\U5e8f\U540d\U79f0\Uff01";
-    "Download: Please select a kext name!" = "\U4e0b\U8f7d\Uff1a\U8bf7\U9009\U62e9\U4e00\U4e2akext\U540d\U79f0\Uff01";
-    "Downloaded %.2f MB of %.2f MB (%@)" = "\U4e0b\U8f7d %1$.2f MB of %2$.2f MB (%3$@)";
-    Error = "\U9519\U8bef";
-    "Export config file" = "\U5bfc\U51fa\U914d\U7f6e\U6587\U4ef6";
-    "FakeSMC detected... Choose an add on to install..." = "\U68c0\U6d4b\U5230FakeSMC ...\U9009\U62e9\U8981\U6dfb\U52a0\U7684\U5b89\U88c5......";
-    "FindEthernetInterfaces returned 0x%08x\n" = "FindEthernetInterfaces returned 0x%08x\n";
-    "GB/s" = "GB/s";
-    "Generate Config" = "\U751f\U6210\U914d\U7f6e-Generate Config";
-    "GetMACAddress returned 0x%08x\n" = "GetMACAddress returned 0x%08x\n";
-    Graphics = "\U663e\U5361\U8bbe\U7f6e-Graphics";
-    Gui = "\U5f15\U5bfc\U754c\U9762-Gui";
-    "HEX Converter" = "16\U8fdb\U5236\U8f6c\U6362\U5668";
-    "HEX converter" = "16\U8fdb\U5236\U8f6c\U6362\U5668";
-    "HEX string" = "16\U8fdb\U5236\U5b57\U7b26";
-    Hour = "\U5c0f\U65f6";
-    Hours = "\U5c0f\U65f6";
-    "I can't find a config file. Do you want mount EFI partition?" = "\U627e\U4e0d\U5230config\U6587\U4ef6. \U4f60\U662f\U5426\U8981\U6302\U8f7dEFI\U5206\U533a?";
-    "Import config file to project" = "\U5c06\U914d\U7f6e\U6587\U4ef6\U5bfc\U5165\U9879\U76ee";
-    "Initialization: Unable to read database. Cannot find server or there's no internet connection." = "\U521d\U59cb\U5316\Uff1a\U65e0\U6cd5\U8bfb\U53d6\U6570\U636e\U5e93\U3002\U627e\U4e0d\U5230\U670d\U52a1\U5668\U6216\U6ca1\U6709\U4e92\U8054\U7f51\U8fde\U63a5\U3002";
-    Install = "\U5b89\U88c5";
-    "Install Clover bootloader to see boot-log" = "\U5b89\U88c5Clover bootloader\U4ee5\U67e5\U770bboot-log";
-    "Install Drivers" = "\U5b89\U88c5\U9a71\U52a8-Install Drivers";
-    "Install/Update Clover" = "\U5b89\U88c5\U66f4\U65b0-Install/Update Clover";
-    "Invalid HEX data" = "\U65e0\U6548\U7684HEX\U6570\U636e";
-    "Invalid base64 data" = "\U65e0\U6548base64\U6570\U636e";
-    "Invalid data" = "\U65e0\U6548\U6570\U636e";
-    "KB/s" = "KB/s";
-    "Kernel and Kext Patches" = "\U5185\U6838\U8865\U4e01-Kernel & Kext Patch";
-    "Kexts Installer" = "Kexts\U5b89\U88c5";
-    "Leave A Message" = "\U7559\U8a00";
-    "Load Configuration" = "\U52a0\U8f7d\U914d\U7f6e";
-    "MB/s" = "MB/s";
-    "MLB: %@" = "MLB: %@";
-    "MLB: N/A" = "MLB: N/A";
-    "Manual Installation: %@ has been successfully copied to %@" = "\U624b\U52a8\U5b89\U88c5 %1$@ \U5df2\U6210\U529f\U590d\U5236\U5230%2$@";
-    "Manual Installation: %@ has been successfully updated to %@" = "\U624b\U52a8\U5b89\U88c5: %1$@ \U5df2\U6210\U529f\U66f4\U65b0\U81f3 %2$@";
-    "Manual Installation: %@ successfully backed up to %@" = "\U624b\U52a8\U5b89\U88c5: %1$@\U5df2\U6210\U529f\U5907\U4efd\U81f3 %2$@";
-    "Manual Installation: ERROR: %@" = "\U624b\U52a8\U5b89\U88c5 :\U9519\U8bef: %@";
-    "Manual Installation: ERROR: You don't have permission to write here!" = "\U624b\U52a8\U5b89\U88c5: \U9519\U8bef: \U4f60\U6ca1\U6709\U5728\U8fd9\U91cc\U5199\U7684\U6743\U9650\Uff01";
-    "Manual Installation: Kext file required!" = "\U624b\U52a8\U5b89\U88c5\Uff1a\U9700\U8981Kext\U6587\U4ef6\Uff01";
-    "Manual Installation: Path doesn't exist!" = "\U624b\U52a8\U5b89\U88c5\Uff1a\U8def\U5f84\U4e0d\U5b58\U5728\Uff01";
-    Minute = "\U5206\U949f";
-    Minutes = "\U5206\U949f";
-    "Mount EFI" = "\U6302\U8f7d\U5206\U533a-Mount EFI";
-    "Mount EFI partition" = "\U6302\U8f7dEFI\U5206\U533a";
-    "Mount Point:" = "\U6302\U8f7d\U70b9:";
-    "Mount Point: %@" = "\U6302\U8f7d\U70b9: %@";
-    "Mount Point: N/A" = "\U6302\U8f7d\U70b9: N/A";
-    "New Configuration..." = "\U65b0\U5efa\U914d\U7f6e...";
-    No = No;
-    "No EFI folder found.....\n" = "\U627e\U4e0d\U5230EFI\U6587\U4ef6\U5939.....\n";
-    "No Value" = "\U6ca1\U6709\U503c";
-    "Open Configuration..." = "\U6253\U5f00\U914d\U7f6e...";
-    Paste = "\U7c98\U8d34";
-    "Paypal - Free Donation" = "Paypal - \U514d\U8d39\U6350\U8d60";
-    "Platform UUID: %@" = "Platform UUID: %@";
-    "Platform UUID: N/A" = "Platform UUID: N/A";
-    "Please check these following errors:\n\n1. If you set SSDT, the fields Type/key and String/Number are required\n2. If you set TableId or Length, the field String/Number is required\n3. Type/key TableId must contain string value.\n4. Type/key Length must contain number value." = "\U8bf7\U68c0\U67e5\U4ee5\U4e0b\U9519\U8bef:\n\n1. \U5982\U679c\U8981\U8bbe\U7f6eSSDT, \U5b57\U6bb5\U7684Type/key\U548cString/Number\U662f\U5fc5\U987b\U7684\n2. \U5982\U679c\U8bbe\U7f6eTableId\U6216Length,\U5b57\U6bb5String/Number \U662f\U5fc5\U987b\U7684\n3. Type/key TableId\U5fc5\U987b\U5305\U542b\U5b57\U7b26\U4e32\U503c.\n4. Type/key \U957f\U5ea6\U5fc5\U987b\U5305\U542b\U6570\U5b57\U503c\U957f\U5ea6\U5fc5\U987b\U5305\U542b\U6570\U5b57\U503c.";
-    "Process is taking longer than usual." = "\U5904\U7406\U82b1\U8d39\U7684\U65f6\U95f4\U6bd4\U5e73\U65f6\U957f\U3002";
-    "Product Name: %@" = "Product Name: %@";
-    "Product Name: N/A" = "Product Name: N/A";
-    "ROM: %@" = "ROM: %@";
-    "ROM: N/A" = "ROM: N/A";
-    Repair = "\U4fee\U590d";
-    Restart = "\U91cd\U65b0\U542f\U52a8";
-    "Rt Variables" = "\U53d8\U91cf\U8bbe\U7f6e-Rt Variables";
-    SECTIONS = "\U914d    \U7f6e";
-    SMBIOS = "\U673a\U578b\U8bbe\U7f6e-SMBIOS";
-    Save = "\U4fdd\U5b58";
-    "Save As..." = "\U53e6\U5b58\U4e3a...";
-    "Save, Save As Configuration" = "\U4fdd\U5b58, \U53e6\U5b58\U4e3a\U914d\U7f6e";
-    Second = "\U79d2";
-    Seconds = "\U79d2";
-    "Serial Number: %@" = "\U5e8f\U5217\U53f7: %@";
-    "Serial Number: N/A" = "\U5e8f\U5217\U53f7: N/A";
-    Share = "\U5206\U4eab";
-    "Show Location: Path doesn't exist!" = "\U663e\U793a\U4f4d\U7f6e\Uff1a\U8def\U5f84\U4e0d\U5b58\U5728\Uff01";
-    "Size:" = "\U5bb9\U91cf:";
-    "SmUUID: %@" = "SmUUID: %@";
-    "SmUUID: N/A" = "SmUUID: N/A";
-    "Some features will not be available without an internet connection" = "\U5982\U679c\U6ca1\U6709\U4e92\U8054\U7f51\U8fde\U63a5\Uff0c\U67d0\U4e9b\U529f\U80fd\U5c06\U65e0\U6cd5\U4f7f\U7528";
-    "Some info for %@.kext => Identifier: %@ | Version: %@%@" = "\U4fe1\U606f: %1$@.kext =>Identifier: %2$@ | \U7248\U672c: %3$@%4$@";
-    "Sorry to generate a valid ROM, you need unique UUID in SystemParameters->Custom UUID (copy from system or generate one) or go in SMBIOS->Smuuid and add a valid uuid in the format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX." = "\U62b1\U6b49\U751f\U6210\U6709\U6548\U7684ROM\Uff0c\U60a8\U9700\U8981SystemParameters-> Custom UUID\U4e2d\U7684\U552f\U4e00UUID\Uff08\U4ece\U7cfb\U7edf\U590d\U5236\U6216\U751f\U6210\U4e00\U4e2a\Uff09\U6216\U8fdb\U5165SMBIOS-> Smuuid\U5e76\U6dfb\U52a0\U4ee5\U4e0b\U683c\U5f0f\U7684\U6709\U6548uuid\Uff1aXXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX \U3002";
-    "Start Screen" = "\U521d\U59cb\U5c4f\U5e55";
-    "Status:" = "\U72b6\U6001:";
-    Synchronized = "\U540c\U6b65";
-    "System Parameters" = "\U7cfb\U7edf\U53c2\U6570-System Parameter";
-    TOOLS = "\U5de5    \U5177";
-    "Text Mode" = "\U6587\U5b57\U6a21\U5f0f";
-    "The document \U201c%@\U201d could not be duplicated. Bad configuration in Drop Tables - ACPI section" = "\U6587\U6863 \U201c%@\U201d\U4e0d\U80fd\U590d\U5236.Drop Tables\U4e2d\U7684\U914d\U7f6e\U9519\U8bef - ACPI\U90e8\U5206";
-    "Themes Editor" = "\U4e3b\U9898\U7f16\U8f91-Themes Editor";
-    "There was an error while completing the process" = "\U5b8c\U6210\U6b64\U8fc7\U7a0b\U65f6\U51fa\U9519";
-    "There was an probable error with clover-genconfig. Use this code in terminal window /usr/local/bin/clover-genconfig > ~/Desktop/config-generate.plist" = "clover-genconfig\U53ef\U80fd\U5b58\U5728\U9519\U8bef\U3002\U5728\U7ec8\U7aef\U7a97\U53e3/ usr/local/ bin/ clover-genconfig>\U301c/ Desktop/config-generate.plist\U4e2d\U4f7f\U7528\U6b64\U4ee3\U7801";
-    "There were some problems contacting server of beta version. %@" = "\U8054\U7cfbbeta\U7248\U670d\U52a1\U5668\U65f6\U9047\U5230\U4e00\U4e9b\U95ee\U9898\U3002%@";
-    "There were some problems contacting server of stable and beta versions." = "\U8054\U7cfb\U7a33\U5b9a\U7248\U548cBeta\U7248\U670d\U52a1\U5668\U65f6\U9047\U5230\U4e00\U4e9b\U95ee\U9898\U3002";
-    "There were some problems contacting server of stable version. Ready to install beta version!" = "\U8054\U7cfb\U7a33\U5b9a\U7248\U670d\U52a1\U5668\U65f6\U9047\U5230\U4e00\U4e9b\U95ee\U9898\U3002\U51c6\U5907\U5b89\U88c5\U6d4b\U8bd5\U7248\Uff01";
-    "This system's built-in MAC address: %@" = "\U8be5\U7cfb\U7edf\U7684\U5185\U7f6eMAC\U5730\U5740: %@";
-    "This tool might not work properly under Mountain Lion (10.8)" = "\U5728Mountain Lion(10.8)\U4e0b\Uff0c\U6b64\U5de5\U5177\U53ef\U80fd\U65e0\U6cd5\U6b63\U5e38\U5de5\U4f5c";
-    "To apply this change, you must restart the app" = "\U8981\U5e94\U7528\U6b64\U66f4\U6539\Uff0c\U60a8\U5fc5\U987b\U91cd\U65b0\U542f\U52a8\U5e94\U7528\U7a0b\U5e8f";
-    "Unable to read database." = "\U65e0\U6cd5\U8bfb\U53d6\U6570\U636e\U5e93\U3002";
-    "Unknown error during writing to file" = "\U5199\U5165\U6587\U4ef6\U65f6\U51fa\U73b0\U672a\U77e5\U9519\U8bef";
-    Untitled = "\U65e0\U6807\U9898";
-    "Unzip: Error during unzipping file!" = "\U89e3\U538b\U7f29\Uff1a\U89e3\U538b\U7f29\U6587\U4ef6\U65f6\U51fa\U9519\Uff01";
-    Update = "\U66f4\U65b0";
-    "VirtualSMC detected... Choose an add on to install..." = "\U68c0\U6d4b\U5230VirtualSMC ...\U9009\U62e9\U8981\U6dfb\U52a0\U7684\U5b89\U88c5...";
-    "Volume Identifier:" = "\U5377\U6807\U8bc6\U7b26:";
-    "Volume Identifier: %@" = "\U5377\U6807\U8bc6\U7b26: %@";
-    "Volume Identifier: %@ Status: [Current Boot Disk]" = "\U5377\U6807\U8bc6\U7b26: %@ \U72b6\U6001: [\U5f53\U524d\U542f\U52a8\U78c1\U76d8]";
-    "Volume Name:" = "\U5377\U540d:";
-    "Volume Name: %@" = "\U5377\U540d: %@";
-    "Volume UUID:" = "\U5377UUID:";
-    "Volume UUID: %@" = "\U5377UUID: %@";
-    "Volume UUID: N/A" = "\U5377UUID: N/A";
-    "base64 string" = "base64\U5b57\U7b26";
-    "clover-genconfig not found!!!!" = "\U627e\U4e0d\U5230clover-genconfig!!!!";
-    "config-generate.plist generated and loaded correctly" = "config-generate.plist\U6b63\U786e\U751f\U6210\U548c\U52a0\U8f7d";
-    "config.plist not found!" = "\U627e\U4e0d\U5230config.plist !";
-    "decimal string" = "10\U8fdb\U5236\U5b57\U7b26";
-    "system-id: %@" = "system-id: %@";
-    "system-id: N/A" = "system-id: N/A";
-    "text string" = "\U6587\U672c\U5b57\U7b26";
-    "theme.plist data saved successfully" = "theme.plist\U6570\U636e\U4fdd\U5b58\U6210\U529f";
-    "theme.plist unable to save file" = "theme.plist\U65e0\U6cd5\U4fdd\U5b58\U6587\U4ef6";
-    "theme.plist unable to save theme file" = "theme.plist\U65e0\U6cd5\U4fdd\U5b58\U4e3b\U9898\U6587\U4ef6";
-}
